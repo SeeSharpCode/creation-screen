@@ -42,7 +42,7 @@
       onSubmit(event) {
         event.preventDefault();
 
-        axios.post('https://localhost:5001/api/accounts/login', {
+        axios.post('api/accounts/login', {
             username: this.form.username,
             password: this.form.password
         })

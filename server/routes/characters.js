@@ -15,8 +15,21 @@ const router = express.Router();
 //   return client.db('creation-screen').collection('characters');
 // };
 
+const characters = [
+  {
+    id: 0,
+    name: 'Foo',
+    shortDescription: 'Description 1'
+  },
+  {
+    id: 1,
+    name: 'Bar',
+    shortDescription: 'Description 2'
+  }
+];
+
 router.get('/', async (req, res) => {
-  res.send('Protected route accessed!');
+  res.send(characters);
 });
 
 module.exports = router;
