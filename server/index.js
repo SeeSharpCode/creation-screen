@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // Set up auth.
 const passport = require('passport');
 app.use(passport.initialize());
-const configurePassport = require('./auth.config');
+const { configurePassport } = require('./auth.service');
 configurePassport(passport);
 
 // Auth routes.
@@ -24,4 +24,4 @@ app.use('/api/accounts', auth);
 const characters = require('./routes/characters');
 app.use('/api/characters', passport.authenticate('jwt', { session: false }), characters);
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`creation-screen listening on port ${port}!`));

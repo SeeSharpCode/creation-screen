@@ -3,9 +3,9 @@
     <CharacterCard
       v-for="character in characters"
       :key="character.id"
-      title="Foo"
-      shortDescription="Bar"
-      username="Breems"
+      :title="character.name"
+      :shortDescription="character.shortDescription"
+      :author="character.author"
       :skills="['one-handed', 'fresh']"
     />
   </div>

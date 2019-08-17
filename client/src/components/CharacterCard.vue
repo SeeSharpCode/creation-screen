@@ -23,13 +23,13 @@
 export default {
   computed: {
     subtitle() {
-      return `By ${this.username}`;
+      return `By ${this.author}`;
     }
   },
   props: [
     'title',
     'shortDescription',
-    'username',
+    'author',
     'skills'
   ]
 }

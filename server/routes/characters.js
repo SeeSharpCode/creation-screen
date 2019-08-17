@@ -19,12 +19,14 @@ const characters = [
   {
     id: 0,
     name: 'Foo',
-    shortDescription: 'Description 1'
+    shortDescription: 'Description 1',
+    author: 'Foo Author'
   },
   {
     id: 1,
     name: 'Bar',
-    shortDescription: 'Description 2'
+    shortDescription: 'Description 2',
+    author: 'Bar Author'
   }
 ];
 
