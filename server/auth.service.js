@@ -1,8 +1,5 @@
 const { ExtractJwt, Strategy } = require("passport-jwt");
 
-let currentUserId = 0;
-const users = [];
-
 module.exports = {
   configurePassport(passport) {
       const jwtOptions = {
@@ -19,10 +16,5 @@ module.exports = {
       
       passport.use(strategy);
   },
-  addUser(username, password) {
-    users.push({ id: ++currentUserId, username, password });
-  },
-  getUser(username) {
-    return users.find(user => user.username === username);
-  }
+  users: [{ id: 0, username: 'foo', password: 'bar' } ]
 };

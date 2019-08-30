@@ -48,7 +48,6 @@
         })
         .then(response => {
             localStorage.setItem('accessToken', response.data);
-            localStorage.setItem('username', this.form.username);
             this.$router.push('/');
         })
         .catch(error => {
