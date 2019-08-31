@@ -17,11 +17,11 @@ const { configurePassport } = require('./auth.service');
 configurePassport(passport);
 
 // Auth routes.
-const auth = require('./routes/accounts');
+const auth = require('./controllers/accounts');
 app.use('/api/accounts', auth);
 
 // Character routes.
-const characters = require('./routes/characters');
+const characters = require('./controllers/characters');
 app.use('/api/characters', passport.authenticate('jwt', { session: false }), characters);
 
 app.listen(port, () => console.log(`creation-screen listening on port ${port}!`));
