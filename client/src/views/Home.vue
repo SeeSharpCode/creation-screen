@@ -1,12 +1,12 @@
 <template>
   <div>
+    <h2>Popular Builds</h2>
     <CharacterCard
       v-for="character in characters"
-      :key="character.id"
-      :title="character.name"
-      :shortDescription="character.shortDescription"
-      :author="character.author"
-      :skills="['one-handed', 'fresh']"
+      v-bind:key="character.name"
+      v-bind:character="character"
+      style="float: left;"
+      class="mr-2"
     />
   </div>
 </template>
@@ -17,7 +17,6 @@ import CharacterCard from "@/components/CharacterCard.vue";
 import axios from 'axios';
 
 export default {
-  name: "home",
   components: {
     CharacterCard
   },

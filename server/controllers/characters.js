@@ -18,20 +18,65 @@ const router = express.Router();
 const characters = [
   {
     id: 0,
-    name: 'Foo',
-    shortDescription: 'Description 1',
-    author: 'Foo Author'
+    name: 'Milk Drinker',
+    author: 'Breems',
+    imageUrl: 'https://static-4.nexusmods.com/15/mods/110/images/52898-1-1397260902.jpg',
+    shortDescription: 'The Milk Drinker\'s greatest pleasure is stirring up tavern trouble.',
+    description: {
+      backstory: "The Milk Drinker was raised by top-ranking members of the milk-drinking cult.",
+      playstyle: "You'll go along your merry way, drinking and disrupting every day.",
+      questlines: ['Main Story', 'Bard\'s College', 'Dragonborn']
+    },
+    skills: ['speech', 'pickpocket'],
+    archetypes: ['bard'],
+    equipment: {
+      weapons: ['Wabbajack', 'Wooden Sword'],
+      armor: ['Daedric Armor Set']
+    },
+    standingStone: 'The Lord Stone',
+    perks: [],
+    mods: [
+      {
+        name: 'Ordinator',
+        url: 'https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files'
+      }
+    ]
   },
   {
     id: 1,
-    name: 'Bar',
-    shortDescription: 'Description 2',
-    author: 'Bar Author'
+    name: 'Bladesinger',
+    author: 'Kermit',
+    imageUrl: 'https://i.pinimg.com/originals/48/63/23/486323ecda527b5d888a2c0fd998e042.jpg',
+    shortDescription: 'Foo bar baz qux.',
+    description: {
+      backstory: "Sings about the Blades, I guess? Who knows, really.",
+      playstyle: "I reckon you'll become a bard and sing.",
+      questlines: ['Bard\'s College', 'Dawnguard']
+    },
+    skills: ['speech', 'one-handed'],
+    archetypes: ['bard'],
+    equipment: {
+      weapons: ['Blade\'s Sword', 'Ebony Blade'],
+      armor: ['Daedric Armor Set']
+    },
+    standingStone: 'The Warrior Stone',
+    perks: [],
+    mods: [
+      {
+        name: 'Ordinator',
+        url: 'https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files'
+      }
+    ]
   }
 ];
 
 router.get('/', async (req, res) => {
-  res.send(characters);
+  return res.send(characters);
+});
+
+router.get('/:id', async (req, res) => {
+  const character = characters.find(c => c.id === parseInt(req.params.id));
+  return character ? res.send(character) : res.status(404).send();
 });
 
 module.exports = router;
