@@ -16,7 +16,6 @@
     <hr />
 
     <h4>Play Guide</h4>
-    <
   </div>
 </template>
 
