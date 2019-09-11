@@ -22,19 +22,25 @@ const characters = [
     author: 'Breems',
     imageUrl: 'https://static-4.nexusmods.com/15/mods/110/images/52898-1-1397260902.jpg',
     shortDescription: 'The Milk Drinker\'s greatest pleasure is stirring up tavern trouble.',
-    description: {
-      backstory: "The Milk Drinker was raised by top-ranking members of the milk-drinking cult.",
-      playstyle: "You'll go along your merry way, drinking and disrupting every day.",
-      questlines: ['Main Story', 'Bard\'s College', 'Dragonborn']
-    },
-    skills: ['speech', 'pickpocket'],
     archetypes: ['bard'],
-    equipment: {
-      weapons: ['Wabbajack', 'Wooden Sword'],
-      armor: ['Daedric Armor Set']
+    race: 'Argonian',
+    sex: 'Male',
+    story: {
+      backstory: "The Milk Drinker was raised by top-ranking members of the milk-drinking cult.",
+      questlines: ['Main Story', 'Bard\'s College', 'Dragonborn'],
+      roleplay: "Do stuff"
     },
-    standingStone: 'The Lord Stone',
-    perks: [],
+    playstyle: {
+      skills: ['speech', 'pickpocket'],
+      perks: [],
+      equipment: {
+        weapons: ['Wabbajack', 'Wooden Sword'],
+        armor: ['Daedric Armor Set']
+      },
+      spells: ['Firebolt'],
+      shouts: ['Unrelenting Force'],
+      standingStone: 'The Lord Stone',
+    },
     mods: [
       {
         name: 'Ordinator',

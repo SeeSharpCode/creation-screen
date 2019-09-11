@@ -1,6 +1,22 @@
 `<template>
   <div>
     <h2>{{character.name}}</h2>
+    <h5 class="text-muted">{{character.author}}</h5>
+
+    <hr />
+
+    <h4>Description</h4>
+    <h5>Backstory</h5>
+    <p>{{character.description.backstory}}</p>
+    <h5>Playstyle</h5>
+    <p>{{character.description.playstyle}}</p>
+    <h5>Questlines</h5>
+    <p>{{character.description.questlines}}</p>
+
+    <hr />
+
+    <h4>Play Guide</h4>
+    <
   </div>
 </template>
 
