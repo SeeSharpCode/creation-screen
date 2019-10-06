@@ -16,6 +16,14 @@ app.use(passport.initialize());
 const { configurePassport } = require('./auth.service');
 configurePassport(passport);
 
+// Home routes.
+const home = require('./controllers/home');
+app.use('/api', home);
+
+// Game routes.
+const games = require('./controllers/games');
+app.use('/api/games', games);
+
 // Auth routes.
 const auth = require('./controllers/accounts');
 app.use('/api/accounts', auth);
