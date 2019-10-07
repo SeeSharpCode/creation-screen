@@ -1,68 +1,42 @@
 <template>
   <div id="app">
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" style="font-family: serif">
-            <h4 class="title is-4 has-text-white">
-              <i class="fas fa-sliders-h" style="margin-right: 2px;"></i>
-              CS
-            </h4>
-          </a>
-          
-          <a
-            role="button"
-            class="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">Home</a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">Select a game...</a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item"
-                  v-for="game in games.entities"
-                  v-bind:key="game.properties.name">
-                  <img :src="game.links[0].href" style="margin-right: 5px;" />
-                  {{game.properties.name}}
-                </a>
-                <!-- <a class="navbar-item">Skyrim</a>
-                <a class="navbar-item">Fallout 4</a>
-                <a class="navbar-item">Oblivion</a> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="navbar-end">
-            <div v-if="!username" class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a class="button is-light">Log in</a>
-              </div>
-            </div>
-
-            <div v-if="username" class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">{{username}}</a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item">Profile</a>
-                <a class="navbar-item">Log out</a>
-              </div>
-            </div>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </nav>
@@ -71,18 +45,18 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 
 export default {
   created: async function() {
-    this.home = (await axios.get('/api')).data;
-    this.games = (await axios.get('/api/games')).data;
+    this.home = (await axios.get("/api")).data;
+    this.games = (await axios.get("/api/games")).data;
   },
   data() {
     return {
       home: {},
       games: {},
-      selectedGame: 'Skyrim',
+      selectedGame: "Skyrim",
       get username() {
         return localStorage.getItem("username");
       },
