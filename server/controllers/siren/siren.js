@@ -1,59 +1,30 @@
-class SirenEntity {
-  constructor(builder) {
-    this.class = builder.classes;
-    this.properties = builder.properties;
-    this.entities = builder.entities;
-    this.actions = builder.actions;
-    this.links = builder.links;
+module.exports = class SirenEntity {
+  constructor(classes, properties, other) {
+    this.class = classes;
+    this.properties = properties;
+    this.links = [];
+    this.actions = [];
+    this.entities = [];
+    Object.assign(this, other);
   }
 
-  static builder() {
-    class Builder {
-      classes(classes) {
-        this.classes = classes;
-        return this;
-      }
+  addEntity(rels, other) {
+    this.entities.push({ rel: rels, ...other });
+    return this;
+  }
 
-      properties(object) {
-        this.properties = object;
-        return this;
-      }
+  addLinkEntity(rels, href, other) {
+    this.entities.push({ rel: rels, href, ...other });
+    return this;
+  }
 
-      entities(entities) {
-        this.entities = entities;
-        return this;
-      }
+  addAction(name, href, other) {
+    this.actions.push({ name, href, ...other });
+    return this;
+  }
 
-      action(action) {
-        if (!this.actions) {
-          this.actions = [];
-        }
-
-        this.actions.push(action);
-        return this;
-      }
-
-      link(rel, href) {
-        this.link({ rel, href });
-        return this;
-      }
-
-      link(link) {
-        if (!this.links) {
-          this.links = [];
-        }
-
-        this.links.push(link);
-        return this;
-      }
-
-      build() {
-        return new SirenEntity(this);
-      }
-    }
-
-    return new Builder();
+  addLink(rels, href, other) {
+    this.links.push({ rel: rels, href, ...other });
+    return this;
   }
 }
-
-module.exports = SirenEntity;

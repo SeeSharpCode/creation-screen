@@ -1,35 +1,46 @@
 const express = require('express');
 const router = express.Router();
 const SirenEntity = require('./siren/siren');
-const { selfLink } = require('./siren/links');
+const { relativeUrl, selfUrl } = require('./siren/url.helpers');
+
+const mockGames = [
+  {
+    name: 'Skyrim',
+    icon: 'images/skyrim.png'
+  },
+  {
+    name: 'Fallout 4',
+    icon: 'images/fo4.png'
+  }
+];
+
+const toEmbeddedEntity = (req, game) => ({
+  class: ['game'],
+  properties: game,
+  links: [
+    {
+      rel: ['icon'],
+      href: game.icon
+    },
+    {
+      rel: ['self'],
+      href: relativeUrl(req, `api/games/${game.name}`)
+    }
+  ]
+});
 
 router.get('/', (req, res) => {
-  return res.send(SirenEntity.builder()
-    .classes(['games', 'collection'])
-    .link(selfLink(req))
-    .entities([
-      {
-        class: ['game'],
-        rel: ['item'],
-        properties: {
-          name: 'Skyrim',
-        },
-        links: [
-          { rel: ['icon'], href: "images/skyrim.png" }
-        ]
-      },
-      {
-        class: ['game'],
-        rel: ['item'],
-        properties: {
-          name: 'Fallout 4',
-        },
-        links: [
-          { rel: ['icon'], href: "images/fo4.png" }
-        ]
-      }
-    ])
-    .build());
+  const games = new SirenEntity(['games', 'collection'])
+    .addLink(['self'], selfUrl(req));
+
+  mockGames.map(game => toEmbeddedEntity(req, game)).forEach(entity => games.addEntity(entity));
+
+  return res.send(games);
+});
+
+router.get('/:name', (req, res) => {
+  
+  return res.send(req.params.name);
 });
 
 module.exports = router;
