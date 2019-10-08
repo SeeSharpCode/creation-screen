@@ -5,6 +5,7 @@ const { link, selfLink } = require('./siren/siren');
 router.get('/', (req, res) => {
   const home = {
     class: ['home'],
+    title: 'Creation Screen',
     links: [
       selfLink(req),
       link(req, ['games'], 'games', { title: 'Games' }),

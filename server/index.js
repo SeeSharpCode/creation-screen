@@ -32,4 +32,4 @@ app.use('/api/accounts', auth);
 const characters = require('./controllers/characters');
 app.use('/api/characters', /* passport.authenticate('jwt', { session: false }),*/ characters);
 
-app.listen(port, () => console.log(`creation-screen listening on port ${port}!`));
+app.listen(port, () => console.log(`Running: http://localhost:${port}/api`));

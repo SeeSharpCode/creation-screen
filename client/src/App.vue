@@ -1,45 +1,49 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarColor02"
-          aria-controls="navbarColor02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-container>
+        <b-navbar-brand href="#">{{home.title}}</b-navbar-brand>
 
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav>
+            <img width="32" :src="selectedGame.icon" />
+            <b-nav-item-dropdown :text="selectedGame.name" right>
+              <b-dropdown-item
+                v-for="game in games"
+                v-bind:key="game.name"
+                href="#"
+              >{{game.properties.name}}</b-dropdown-item>
+            </b-nav-item-dropdown>
+          </b-navbar-nav>
+
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+            <b-nav-form>
+              <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
+              <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+            </b-nav-form>
+
+            <b-nav-item-dropdown text="Lang" right>
+              <b-dropdown-item href="#">EN</b-dropdown-item>
+              <b-dropdown-item href="#">ES</b-dropdown-item>
+              <b-dropdown-item href="#">RU</b-dropdown-item>
+              <b-dropdown-item href="#">FA</b-dropdown-item>
+            </b-nav-item-dropdown>
+
+            <b-nav-item-dropdown right>
+              <!-- Using 'button-content' slot -->
+              <template v-slot:button-content>
+                <em>User</em>
+              </template>
+              <b-dropdown-item href="#">Profile</b-dropdown-item>
+              <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+            </b-nav-item-dropdown>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-container>
+    </b-navbar>
     <!-- <router-view /> -->
   </div>
 </template>
@@ -50,13 +54,13 @@ import axios from "axios";
 export default {
   created: async function() {
     this.home = (await axios.get("/api")).data;
-    this.games = (await axios.get("/api/games")).data;
+    this.games = (await axios.get("/api/games")).data.entities;
   },
   data() {
     return {
       home: {},
       games: {},
-      selectedGame: "Skyrim",
+      selectedGame: { name: "Skyrim", icon: "images/skyrim.png" },
       get username() {
         return localStorage.getItem("username");
       },
