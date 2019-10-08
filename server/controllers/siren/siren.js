@@ -1,30 +1,25 @@
-module.exports = class SirenEntity {
-  constructor(classes, properties, other) {
-    this.class = classes;
-    this.properties = properties;
-    this.links = [];
-    this.actions = [];
-    this.entities = [];
-    Object.assign(this, other);
-  }
+const url = require('url');
 
-  addEntity(rels, other) {
-    this.entities.push({ rel: rels, ...other });
-    return this;
-  }
-
-  addLinkEntity(rels, href, other) {
-    this.entities.push({ rel: rels, href, ...other });
-    return this;
-  }
-
-  addAction(name, href, other) {
-    this.actions.push({ name, href, ...other });
-    return this;
-  }
-
-  addLink(rels, href, other) {
-    this.links.push({ rel: rels, href, ...other });
-    return this;
+module.exports = {
+  link(req, rels, path, other) {
+    return {
+      rel: rels,
+      href: url.format({
+        protocol: req.protocol,
+        host: req.get('host'),
+        pathname: `api/${path}`
+      }),
+      ...other
+    }
+  },
+  selfLink(req) {
+    return {
+      rel: ['self'],
+      href: url.format({
+        protocol: req.protocol,
+        host: req.get('host'),
+        pathname: req.originalUrl
+      })
+    }
   }
 }
