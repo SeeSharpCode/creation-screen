@@ -1,26 +1,9 @@
-const express = require('express');
-const router = express.Router();
-
-// const MongoClient = require('mongodb').MongoClient;
-// const uri = "mongodb+srv://Breems:J0dwqUZoQZIGiddC@creationscreen-yr0bb.mongodb.net/test?retryWrites=true&w=majority";
-// // client.connect(err => {
-// //   console.log("Connected successfully to server");
-// //   const collection = client.db("creation-screen");
-// //   // perform actions on the collection object
-// //   client.close();
-// // });
-
-// const loadCharacters = async () => {
-//   const client = await MongoClient.connect(uri, { useNewUrlParser: true });
-//   return client.db('creation-screen').collection('characters');
-// };
-
-const characters = [
+export const characters = [
   {
     id: 0,
     name: 'Milk Drinker',
     author: 'Breems',
-    imageUrl: 'https://static-4.nexusmods.com/15/mods/110/images/52898-1-1397260902.jpg',
+    imageUrl: 'https://i.imgur.com/hjtxyDo.jpg',
     summary: 'The Milk Drinker\'s greatest pleasure is stirring up tavern trouble.',
     archetypes: ['bard'],
     race: 'Argonian',
@@ -75,14 +58,3 @@ const characters = [
     ]
   }
 ];
-
-router.get('/', async (req, res) => {
-  return res.send(characters);
-});
-
-router.get('/:id', async (req, res) => {
-  const character = characters.find(c => c.id === parseInt(req.params.id));
-  return character ? res.send(character) : res.status(404).send();
-});
-
-module.exports = router;
