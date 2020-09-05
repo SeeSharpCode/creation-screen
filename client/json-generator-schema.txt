@@ -1,0 +1,55 @@
+[
+  '{{repeat(5, 7)}}',
+  {
+    id: '{{index()}}',
+    name: '{{surname()}}',
+    author: '{{firstName()}}',
+    game: 'skyrim',
+    imageUrl: 'http://placehold.it/300x100',
+    summary: '{{lorem(1, "paragraphs")}}',
+    archetypes: '{{random("Bard", "Warrior", "Assassin", "Thief", "Archer", "Paladin")}}',
+    race: '{{random("Argonian", "Nord", "Dark Elf", "High Elf", "Redguard")}}',
+    sex: '{{random("Male", "Female", "Any")}}',
+    story: {
+      backstory: '{{lorem(3, "paragraphs")}}',
+      questlines: [
+        '{{repeat(3)}}',
+        '{{random("Main", "Dark Brotherhood", "Thieve\'s Guild", "Bard\'s College", "College of Winterhold", "Dragonborn", "Dawnguard")}}'
+      ],
+      roleplay: '{{lorem(2, "paragraphs")}}'
+    },
+    playstyle: {
+      skills: [
+        '{{repeat(2)}}',
+        '{{random("One-Handed", "Two-Handed", "Illusion", "Destruction", "Restoration", "Conjuration", "Archery", "Block")}}'
+      ],
+      perks: [],
+      equipment: {
+        weapons: [
+          '{{repeat(2)}}',
+        '{{random("Steel Sword", "Iron Axe", "Blade\'s Sword", "Daedric Warhammer", "Ebony Battleaxe", "Blade of Woe", "Chillrend", "Dawnbreaker")}}'
+        ],
+        armor: [
+          '{{repeat(2)}}',
+        '{{random("Steel Armor Set", "Iron Armor Set", "Blade\'s Armor Set", "Daedric Armor Set", "Ebony Armor Set", "Archmage\'s Robes", "Ebony Mail", "Iron Helmet")}}'
+        ]
+      },
+      spells: [
+        '{{repeat(4)}}',
+        '{{random("Fireball", "Ice Spike", "Lightning Bolt", "Transmute Ore", "Incinerate", "Muffle", "Invisibility", "Bound Sword")}}'
+      ],
+      shouts: [
+        '{{repeat(3)}}',
+        '{{random("Unrelenting Force", "Slow Time", "Ice Breath", "Fire Breath", "Dragon Aspect", "Drain Vitality", "Ride Dragon", "Fear and Dismay")}}'
+      ],
+      standingStone: '{{random("The Lord Stone", "The Lady Stone", "The Thief Stone", "The Warrior Stone", "The Mage Stone")}}',
+      mods: [
+        '{{repeat(3)}}',
+        {
+          name: 'Ordinator',
+          url: 'https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files'
+        }
+      ]
+    }
+  }
+]
