@@ -1,18 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import factions from '../faction/factions';
 import { Col, Row } from 'react-bootstrap';
+import { useHistory } from 'react-router-dom';
 
-export default function () {
+export default function({ addCharacter }) {
+  const history = useHistory();
   const [character, setCharacter] = useState(
     {
       name: '',
+      summary: '',
       mods: [],
       story: {
         backstory: '',
         roleplay: '',
-        factions: []
+        questlines: []
       },
       playstyle: {
         skills: [],
@@ -41,7 +43,12 @@ export default function () {
 
         <Form.Group>
           <Form.Label>Summary</Form.Label>
-          <Form.Control as="textarea" placeholder="Give a brief summary of your character" />
+          <Form.Control
+            as="textarea"
+            placeholder="Give a brief summary of your character"
+            value={character.summary}
+            onChange={event => setCharacter({ ...character, summary: event.target.value })}
+          />
         </Form.Group>
 
         <h4 className="text-info">Story</h4>
@@ -57,11 +64,12 @@ export default function () {
         </Form.Group>
 
         <Form.Group>
-          <Form.Label>Factions</Form.Label>
-          {Object.keys(factions).map(faction => (
+          <Form.Label>Questlines</Form.Label>
+          {['Main', 'Join Dark Brotherhood', 'Destroy Dark Brotherhood', 'Thieve\'s Guild', 'Bard\'s College'].map(questline => (
             <Form.Check
+              key={questline}
               type="checkbox"
-              label={factions[faction].name}
+              label={questline}
             />
           ))}
         </Form.Group>
@@ -74,6 +82,7 @@ export default function () {
               <Form.Label>Standing Stone</Form.Label>
               {['Lord', 'Lady', 'Thief', 'Warrior'].map(stone => (
                 <Form.Check
+                  key={stone}
                   type="radio"
                   label={stone}
                 />
@@ -86,6 +95,7 @@ export default function () {
               <Form.Label>Skills</Form.Label>
               {['Alteration', 'Alchemy', 'Block', 'Destruction', 'Illusion', 'Restoration'].map(skill => (
                 <Form.Check
+                  key={skill}
                   type="checkbox"
                   label={skill}
                 />
@@ -94,7 +104,7 @@ export default function () {
           </Col>
         </Row>
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary" onClick={() => { addCharacter(character); history.push('/') }}>
           Submit
         </Button>
       </Col>

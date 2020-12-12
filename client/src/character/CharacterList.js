@@ -6,17 +6,19 @@ import Badge from 'react-bootstrap/Badge';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
-import { characters } from './character-service';
 
-export default function () {
+export default function({ characters }) {
   return (
     <div>
-      <Button variant="primary" href="/create">
-        <FontAwesomeIcon icon={faPlusCircle} className="mr-1" /> Create Build
+      <Link to="/create">
+        <Button variant="primary">
+          <FontAwesomeIcon icon={faPlusCircle} className="mr-1" /> Create Build
         </Button>
+      </Link>
+      
       <CardDeck className="mt-3">
         {characters.map(character =>
-          <CharacterSummary character={character} />
+          <CharacterSummary key={character.name} character={character} />
         )}
       </CardDeck>
     </div>
@@ -26,7 +28,7 @@ export default function () {
 const badges = character => (
   <div className="mb-2" style={{ fontFamily: 'Segoe UI' }}>
     {character.mods && character.mods.length > 0 && <Badge className="mr-1" variant="warning">modded</Badge>}
-    {character.playstyle.skills.map(skill => <Badge className="mr-1 text-lowercase" variant="secondary">{skill}</Badge>)}
+    {character.playstyle.skills.map(skill => <Badge key={skill} className="mr-1 text-lowercase" variant="secondary">{skill}</Badge>)}
   </div>
 );
 

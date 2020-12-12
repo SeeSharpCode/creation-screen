@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { findByName } from './character-service';
+import { findById } from './mock-data';
 
 export default function() {
   let { name } = useParams();
   
   const [character, setCharacter] = useState(
     {
+      name: '',
+      summary: '',
       mods: [],
       story: {
         backstory: '',
         roleplay: '',
-        factions: []
+        questlines: []
       },
       playstyle: {
         skills: [],
@@ -29,14 +30,14 @@ export default function() {
   );
 
   useEffect(() => {
-    setCharacter(findByName(name));
+    setCharacter(findById(name));
   });
 
   return (
     <div>
-      <h2>{name}</h2>
+      <h2>{character.names}</h2>
       <h6>By <Link to={`/users/${character.author}`}>{character.author}</Link></h6>
-      <img src={character.imageUrl} />
+      <img alt="character" src={character.imageUrl} />
 
       <p className="mt-3">{character.summary}</p>
 
@@ -59,11 +60,9 @@ export default function() {
       </section>
 
       <section className="my-2">
-        <h5>Factions</h5>
-        {character.story.factions.map(faction => (
-          <span className="mr-3">
-            <FontAwesomeIcon icon={faction.icon} /> {faction.name}
-          </span>
+        <h5>Questlines</h5>
+        {character.story.questlines.map(faction => (
+          <span className="mr-3">{faction.name}</span>
         ))}
       </section>
 

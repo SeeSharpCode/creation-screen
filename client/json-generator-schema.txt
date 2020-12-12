@@ -1,8 +1,8 @@
 [
-  '{{repeat(5, 7)}}',
+  '{{repeat(30, 30)}}',
   {
     id: '{{index()}}',
-    name: '{{surname()}}',
+    name: '{{firstName()}} {{surname()}}',
     author: '{{firstName()}}',
     game: 'skyrim',
     imageUrl: 'http://placehold.it/300x100',
@@ -14,7 +14,7 @@
       backstory: '{{lorem(3, "paragraphs")}}',
       questlines: [
         '{{repeat(3)}}',
-        '{{random("Main", "Dark Brotherhood", "Thieve\'s Guild", "Bard\'s College", "College of Winterhold", "Dragonborn", "Dawnguard")}}'
+        '{{random( "Main Quest", "Join Dark Brotherhood", "Destroy Dark Brotherhood", "Thieve\'s Guild", "Bard\'s College", "College of Winterhold", "Dragonborn", "Dawnguard")}}'
       ],
       roleplay: '{{lorem(2, "paragraphs")}}'
     },
