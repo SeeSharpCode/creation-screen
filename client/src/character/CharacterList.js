@@ -1,19 +1,25 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Badge from 'react-bootstrap/Badge';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import { characters } from './character-service';
 
 export default function () {
-  let { game } = useParams();
-
   return (
-    <CardDeck>
-      {characters.filter(character => character.game === game).map(character =>
-        <CharacterSummary character={character} />
-      )}
-    </CardDeck>
+    <div>
+      <Button variant="primary" href="/create">
+        <FontAwesomeIcon icon={faPlusCircle} className="mr-1" /> Create Build
+        </Button>
+      <CardDeck className="mt-3">
+        {characters.map(character =>
+          <CharacterSummary character={character} />
+        )}
+      </CardDeck>
+    </div>
   );
 }
 
@@ -37,8 +43,7 @@ const CharacterSummary = ({ character }) => {
         <Card.Text>{character.summary}</Card.Text>
       </Card.Body>
       <Card.Footer>
-        <i className="far fa-heart"></i>
-        <Card.Link className="align-self-end" href={`/${character.game}/characters/${character.name}`}>View</Card.Link>
+        <Card.Link className="align-self-end" href={`/${character.name}`}>View</Card.Link>
       </Card.Footer>
     </Card>
   );

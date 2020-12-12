@@ -1,279 +1,281 @@
+import factions from '../faction/factions';
+
 export const characters = [
   {
     "id": 0,
-    "name": "Cook",
-    "author": "Chapman",
+    "name": "Martinez Livingston",
+    "author": "Katina",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Id nisi aliquip pariatur sit culpa laborum est esse quis id fugiat ipsum. Dolor veniam minim non ea. Quis minim et occaecat minim labore culpa ad.",
-    "archetypes": "Thief",
-    "race": "Dark Elf",
-    "sex": "Male",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Consequat laboris excepteur esse in esse nostrud enim. Cupidatat laboris sunt proident aliqua mollit dolore est. Dolore ad cillum officia voluptate in ad aliqua veniam. Eu nisi ipsum id et et sit tempor ex amet. Nisi sunt proident anim qui ex pariatur deserunt ullamco dolor dolore proident.\r\n",
+    "archetypes": "Bard",
+    "race": "High Elf",
+    "sex": "Female",
     "story": {
-      "backstory": "Officia excepteur nisi nisi id cupidatat ea ea veniam aliqua nostrud tempor mollit qui do. Occaecat commodo dolore veniam fugiat tempor do laborum tempor anim. Irure culpa adipisicing ipsum pariatur esse aliqua.\r\nLabore est sint commodo officia consequat fugiat nisi. Do sit fugiat nulla sint laboris. Occaecat velit veniam in duis voluptate fugiat laborum enim voluptate sunt esse do reprehenderit enim. Culpa anim dolor enim nisi voluptate ipsum consectetur ullamco dolor ullamco officia occaecat velit.\r\nSint veniam aliqua exercitation est aliqua fugiat. Sunt consectetur irure do proident reprehenderit cupidatat velit quis quis ullamco ex nisi. Ad duis quis et veniam laborum ea deserunt. Voluptate consequat labore magna incididunt nisi ut duis qui non excepteur tempor laboris. Id quis nisi culpa culpa laboris non. Id elit laboris labore irure et consequat occaecat dolore deserunt do. Sint elit consectetur eiusmod tempor laboris laboris non magna.\r\n",
+      "backstory": "Dolore sit sit id qui fugiat ipsum. Ullamco eu cillum elit nostrud et fugiat sit elit ad est duis reprehenderit. Enim amet magna exercitation ullamco ex do elit. Commodo culpa irure incididunt non. Anim consequat est ipsum laboris voluptate voluptate aliqua aute dolore eiusmod reprehenderit culpa. Quis mollit deserunt voluptate cillum quis voluptate in laboris. Est irure consequat duis sit commodo dolore ut nisi reprehenderit do ullamco dolor aliquip anim.\r\nLaboris aliqua elit laborum cillum fugiat esse tempor consectetur dolor occaecat dolore. Do mollit labore sit Lorem sunt non. Duis enim ipsum elit sint commodo tempor ipsum cupidatat labore in. Mollit id ad minim mollit consequat adipisicing fugiat cupidatat ea. Proident mollit id ea Lorem ipsum reprehenderit dolore laboris id esse sit eu eiusmod.\r\nIrure irure aute laboris in. Aute reprehenderit excepteur adipisicing anim id labore duis ad. In Lorem cillum quis consectetur Lorem sunt enim dolor ad. Esse elit anim cillum nostrud id nisi consectetur minim ea ullamco do et cillum ea. Veniam amet sit nulla elit ex ad.\r\n",
       "questlines": [
         "Dark Brotherhood",
-        "Bard's College",
-        "Thieve's Guild"
+        "Dark Brotherhood",
+        "Bard's College"
       ],
-      "roleplay": "Cillum do exercitation veniam dolor veniam excepteur enim. Tempor cillum qui adipisicing ex laboris duis. Esse cillum duis nostrud id nulla velit anim occaecat occaecat consequat sunt ut proident Lorem. Nisi commodo laborum cupidatat culpa labore ex elit magna. Dolore non cupidatat excepteur irure laboris laborum cillum esse et ipsum.\r\nSit commodo aute amet aliquip duis exercitation aute irure. Do consequat irure consectetur deserunt ad exercitation amet commodo velit sint laborum laboris do. Laborum cupidatat pariatur aliqua nulla sunt enim irure consequat irure cupidatat exercitation esse Lorem minim. Tempor nisi ea ipsum laborum. Tempor nostrud ut tempor nisi tempor.\r\n"
+      "roleplay": "Reprehenderit proident reprehenderit aliqua fugiat veniam deserunt excepteur nisi eiusmod voluptate. Anim laboris mollit mollit magna adipisicing eiusmod commodo nostrud id voluptate labore sint cillum. Nostrud excepteur excepteur fugiat do nostrud proident dolore proident officia consequat cupidatat labore aliqua.\r\nVoluptate veniam id irure commodo sunt est excepteur ex consequat non. Laboris pariatur magna velit in eu officia. Deserunt nisi ea duis laborum culpa quis eu adipisicing proident sint. Officia adipisicing occaecat in eu exercitation excepteur.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Illusion",
+        "Conjuration",
         "Restoration"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
-          "Iron Axe",
-          "Daedric Warhammer"
+          "Ebony Battleaxe",
+          "Blade of Woe"
         ],
         "armor": [
-          "Iron Helmet",
+          "Ebony Mail",
+          "Iron Helmet"
+        ]
+      },
+      "spells": [
+        "Muffle",
+        "Muffle",
+        "Incinerate",
+        "Incinerate"
+      ],
+      "shouts": [
+        "Fear and Dismay",
+        "Slow Time",
+        "Fear and Dismay"
+      ],
+      "standingStone": "The Lord Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "name": "Ramona Lynn",
+    "author": "Erickson",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Irure incididunt cupidatat dolore ipsum amet do cillum esse commodo veniam. Eiusmod cupidatat enim est est adipisicing proident nulla labore reprehenderit. Reprehenderit est ipsum non in amet veniam est. Veniam commodo officia proident duis esse sunt est laboris.\r\n",
+    "archetypes": "Bard",
+    "race": "Redguard",
+    "sex": "Male",
+    "story": {
+      "backstory": "Incididunt ullamco sint nostrud nostrud deserunt irure. Duis ullamco qui adipisicing amet cupidatat ipsum nulla officia anim et ipsum ad ad. Duis eu et labore consequat consectetur eiusmod tempor adipisicing. Mollit ut esse est do occaecat minim commodo esse.\r\nAliqua in aliqua voluptate aliquip ullamco adipisicing excepteur reprehenderit reprehenderit minim quis minim velit. Id reprehenderit culpa sint commodo nulla. Nulla exercitation cupidatat laboris voluptate culpa cupidatat in anim dolor anim cupidatat eiusmod. Veniam dolor deserunt id cillum labore dolore officia exercitation id et consequat est est. Ipsum anim pariatur sit anim sunt laboris nisi ea non adipisicing. Do aute non exercitation pariatur proident nisi culpa.\r\nDo do culpa ullamco aliqua laboris mollit sunt. Adipisicing fugiat ullamco proident dolore duis consequat aliquip sunt consequat dolor eu. Anim commodo nulla deserunt commodo in eu non incididunt. Est laborum aliquip exercitation elit adipisicing consectetur tempor sunt do id. Eiusmod eu dolore pariatur ipsum cupidatat reprehenderit adipisicing aliqua ex ipsum esse consequat sunt. Ea duis laboris Lorem aliqua id ea sint occaecat sint cupidatat quis eu. Laboris quis irure consequat sint sunt.\r\n",
+      "questlines": [
+        "Bard's College",
+        "Main",
+        "Bard's College"
+      ],
+      "roleplay": "Anim elit cupidatat Lorem quis esse ut ea magna dolor nostrud cillum. Occaecat cupidatat occaecat sint occaecat deserunt sit id ea do deserunt voluptate. Qui minim laborum exercitation excepteur pariatur. In est amet consequat tempor nulla officia labore eu ut culpa. Fugiat id dolore nostrud deserunt culpa aute ut quis reprehenderit consequat. Minim consectetur mollit pariatur consequat aliqua deserunt magna aliqua veniam veniam minim mollit.\r\nOfficia esse eiusmod eu exercitation amet commodo enim laboris in. Velit dolor quis est mollit pariatur deserunt pariatur. Reprehenderit enim reprehenderit nulla consectetur veniam dolor voluptate. Nostrud irure esse nulla nisi officia ipsum nulla ad ullamco sint. Magna cupidatat ipsum labore culpa eiusmod ex velit enim. Ullamco reprehenderit officia aliquip pariatur mollit mollit veniam minim magna officia culpa occaecat ullamco.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Block",
+        "Destruction"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Chillrend",
+          "Chillrend"
+        ],
+        "armor": [
+          "Iron Armor Set",
           "Iron Armor Set"
         ]
       },
       "spells": [
         "Invisibility",
-        "Fireball",
-        "Lightning Bolt",
-        "Transmute Ore"
+        "Ice Spike",
+        "Transmute Ore",
+        "Ice Spike"
       ],
       "shouts": [
-        "Ice Breath",
-        "Slow Time",
-        "Unrelenting Force"
+        "Fear and Dismay",
+        "Fear and Dismay",
+        "Drain Vitality"
       ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Wright",
-    "author": "Stefanie",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Dolor qui ut non enim reprehenderit velit occaecat nostrud Lorem consequat cupidatat velit ea. Sunt aute consequat ea exercitation tempor id fugiat ea occaecat magna tempor aliqua adipisicing consectetur. Excepteur nulla aliquip ex veniam.",
-    "archetypes": "Warrior",
-    "race": "Dark Elf",
-    "sex": "Any",
-    "story": {
-      "backstory": "Minim excepteur ipsum anim Lorem ad dolor ex enim anim aute est sunt aliqua et. Do dolore duis reprehenderit non sit sunt officia velit non. Labore sit laborum eiusmod ex aliquip elit ad ea.\r\nVelit deserunt qui proident id non irure adipisicing laboris laboris reprehenderit laborum in. Ex id labore et mollit cillum elit dolore enim irure. Nulla mollit est elit labore proident aliquip. Velit fugiat adipisicing elit duis non esse nulla deserunt. Nisi incididunt ex excepteur consequat et cillum esse minim dolore quis.\r\nPariatur ad consequat culpa exercitation fugiat magna eu exercitation ea sint est. Occaecat pariatur reprehenderit ea nisi ullamco fugiat sit non minim non sint ipsum laborum nulla. Laborum aute non nostrud eu sit sit aliqua in sunt.\r\n",
-      "questlines": [
-        "Dragonborn",
-        "College of Winterhold",
-        "Dragonborn"
-      ],
-      "roleplay": "Ea culpa ad amet occaecat non aliquip ipsum. Eu minim aliquip nulla eiusmod cillum ullamco. Fugiat occaecat adipisicing veniam non pariatur et aliquip ipsum Lorem laboris id.\r\nVelit officia duis eu nisi nulla velit incididunt eu deserunt deserunt. Sunt enim amet aute amet sint minim quis nisi excepteur deserunt. Nostrud veniam et in nulla pariatur consequat commodo. Sunt in cillum sint aute sint proident aliquip amet non ut fugiat minim nulla.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Conjuration",
-        "One-Handed"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Dawnbreaker",
-          "Daedric Warhammer"
-        ],
-        "armor": [
-          "Steel Armor Set",
-          "Blade's Armor Set"
-        ]
-      },
-      "spells": [
-        "Lightning Bolt",
-        "Bound Sword",
-        "Invisibility",
-        "Bound Sword"
-      ],
-      "shouts": [
-        "Slow Time",
-        "Ice Breath",
-        "Fire Breath"
-      ],
-      "standingStone": "The Mage Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Warrior Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
     "id": 2,
-    "name": "Merritt",
-    "author": "Odessa",
+    "name": "Lowery Henson",
+    "author": "Massey",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Minim veniam aliquip ipsum qui minim nulla pariatur. Laboris aute nostrud cupidatat id nostrud ipsum qui ea est laboris eu cillum ullamco non. Tempor sint dolor commodo veniam mollit sunt irure incididunt ut ut.",
-    "archetypes": "Paladin",
-    "race": "High Elf",
-    "sex": "Male",
-    "story": {
-      "backstory": "Nulla consequat deserunt laborum pariatur anim enim cupidatat. Cillum labore non qui quis excepteur aute enim exercitation commodo adipisicing ullamco minim fugiat est. Eu est amet veniam excepteur qui dolore culpa eu nisi labore veniam dolore.\r\nEt qui eu proident et ea velit non et Lorem pariatur. Sint dolor minim consectetur minim ullamco veniam amet consequat adipisicing nulla exercitation aliqua cillum. Fugiat velit mollit nulla laboris nulla nulla eu exercitation Lorem. Labore sint amet reprehenderit tempor incididunt ad magna ut laboris anim. Occaecat Lorem laborum nostrud ex adipisicing est laboris ullamco laborum occaecat deserunt excepteur amet. Laboris eiusmod exercitation mollit exercitation.\r\nEsse ex et consequat ut amet veniam. Consectetur nulla dolore deserunt pariatur. Do qui labore occaecat ullamco id deserunt est aliqua laboris.\r\n",
-      "questlines": [
-        "Dragonborn",
-        "Dragonborn",
-        "College of Winterhold"
-      ],
-      "roleplay": "Est amet irure consectetur proident est. Aute elit minim sit commodo sunt dolore anim labore in voluptate aliquip. Velit exercitation officia duis anim tempor mollit proident velit nostrud consequat ad. Aute cillum excepteur commodo magna ut velit exercitation deserunt in deserunt. Quis irure consequat ea labore et ea sunt officia sit ad commodo ex. Est commodo labore enim ea culpa sit ea eu culpa commodo commodo.\r\nFugiat laboris incididunt non minim veniam eu sint voluptate nulla veniam. Sit adipisicing sunt magna adipisicing sit elit voluptate veniam dolor. Sunt deserunt dolor sunt magna ea mollit eiusmod pariatur veniam dolore. Proident eiusmod velit cupidatat elit sit aliquip cillum excepteur aute quis et id. Incididunt veniam nisi sint magna occaecat dolor esse dolor aute deserunt. Officia adipisicing eu exercitation minim non aute ullamco tempor excepteur aliquip qui irure laboris esse. Labore laborum dolore enim sint ut nostrud et esse ea officia cupidatat amet.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Destruction",
-        "Conjuration"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Ebony Battleaxe",
-          "Dawnbreaker"
-        ],
-        "armor": [
-          "Archmage's Robes",
-          "Daedric Armor Set"
-        ]
-      },
-      "spells": [
-        "Muffle",
-        "Ice Spike",
-        "Muffle",
-        "Transmute Ore"
-      ],
-      "shouts": [
-        "Fire Breath",
-        "Slow Time",
-        "Slow Time"
-      ],
-      "standingStone": "The Lord Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Stevenson",
-    "author": "Horne",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Labore Lorem quis reprehenderit in cupidatat proident. Commodo aliquip dolore minim sunt enim laboris excepteur enim laborum excepteur aliqua exercitation qui magna. Aliqua enim aliquip dolor dolor commodo qui cillum velit.",
-    "archetypes": "Paladin",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Eu aliqua ex veniam tempor anim Lorem deserunt irure. Dolor amet nulla ut dolor proident sit aliqua culpa aute in. Ut occaecat ipsum mollit minim incididunt irure voluptate. In ipsum dolor deserunt adipisicing id reprehenderit cillum mollit. Est consectetur amet dolor consectetur duis fugiat sunt laborum. Voluptate quis dolor fugiat ullamco eu pariatur.\r\n",
+    "archetypes": "Archer",
     "race": "High Elf",
     "sex": "Any",
     "story": {
-      "backstory": "Tempor ut aute pariatur dolore aliquip et enim consequat. Enim tempor consequat est do laborum commodo ullamco. Aliquip voluptate aliquip reprehenderit dolor ullamco consectetur aliquip consectetur eu nostrud ea velit. Pariatur veniam officia elit in labore sint consequat tempor ut et culpa veniam fugiat. Eu reprehenderit id culpa veniam commodo quis aute nisi aute cupidatat laborum ipsum. Pariatur magna deserunt dolor amet excepteur pariatur.\r\nSit incididunt aute consequat ipsum consequat quis reprehenderit qui sunt aliqua adipisicing. Officia voluptate cupidatat tempor nostrud sit mollit tempor. Qui ut nisi et excepteur in eiusmod qui enim quis non veniam. Eiusmod ullamco do pariatur cupidatat proident laboris pariatur sit. Ipsum esse excepteur proident non in do. Ullamco quis labore fugiat fugiat cupidatat tempor in reprehenderit ea labore nostrud ad ut eu.\r\nVelit irure commodo cupidatat laborum pariatur enim cupidatat ut fugiat dolore commodo. Laboris ullamco incididunt pariatur minim sint elit duis commodo. Culpa tempor irure deserunt ea anim Lorem nisi. Sunt eiusmod aute laborum non aliquip ea dolor qui culpa eiusmod reprehenderit eu do. Dolore quis aute ad Lorem cupidatat tempor do ut. Sint deserunt velit pariatur nulla culpa aliquip excepteur amet laborum Lorem nisi do laborum. Eiusmod voluptate adipisicing nisi ullamco proident magna cillum anim et.\r\n",
+      "backstory": "Nulla ullamco ad ut deserunt sunt ipsum culpa est enim ea aliqua ex. Excepteur qui ea ea velit adipisicing adipisicing enim eiusmod fugiat cupidatat est nostrud occaecat. Aliqua mollit duis laborum ea incididunt nostrud. Irure laborum deserunt dolor sunt ad. Aliquip officia enim ea deserunt aliquip consequat in consequat laborum. Amet ad sunt consequat labore consectetur voluptate duis consequat nisi ut elit.\r\nVelit qui eiusmod magna et sunt est tempor non consequat. Mollit quis aliquip ipsum nisi voluptate nisi cillum esse. Excepteur est anim officia esse enim non reprehenderit ullamco do consequat fugiat elit sit consequat. Amet culpa nulla Lorem ea adipisicing exercitation nisi aute nulla commodo officia. Ea do sit ex ipsum laborum dolor adipisicing fugiat cupidatat voluptate qui.\r\nOfficia et commodo quis officia ullamco. Laboris exercitation ullamco aliquip ea mollit aliqua deserunt occaecat esse do magna. Nostrud exercitation dolore exercitation est culpa incididunt et Lorem laborum voluptate occaecat.\r\n",
       "questlines": [
+        "Dragonborn",
         "Bard's College",
-        "Thieve's Guild",
-        "Thieve's Guild"
+        "College of Winterhold"
       ],
-      "roleplay": "Incididunt aliqua amet nisi ut velit esse laborum fugiat consectetur eu qui tempor velit. Dolore commodo labore excepteur irure veniam commodo proident id excepteur voluptate cupidatat Lorem. Sit est magna cillum id eu irure aliquip esse nostrud. Sit do adipisicing cupidatat elit.\r\nAliqua Lorem incididunt ea duis cupidatat ex minim do proident magna anim duis. Ad non eiusmod eiusmod ullamco esse dolor excepteur duis reprehenderit sunt laborum consectetur sint. Proident velit in do exercitation. Do enim ipsum pariatur sint et pariatur in. Mollit enim sint labore eu dolore fugiat.\r\n"
+      "roleplay": "Aute quis laborum aliqua est ullamco eu Lorem anim magna eu irure. Sunt proident veniam tempor enim ullamco ex non. Non aliquip aliquip nisi mollit eu incididunt et fugiat. Fugiat dolor id dolore Lorem irure ex anim veniam ea nisi.\r\nAnim mollit adipisicing amet sit. Voluptate sunt qui excepteur minim incididunt nulla deserunt fugiat magna cillum cillum incididunt aliqua. Sunt ullamco cupidatat enim ex. Pariatur ut irure tempor nulla id nostrud enim.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Restoration",
-        "One-Handed"
+        "Illusion",
+        "Two-Handed"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
-          "Steel Sword",
-          "Iron Axe"
+          "Iron Axe",
+          "Blade's Sword"
         ],
         "armor": [
-          "Daedric Armor Set",
-          "Daedric Armor Set"
+          "Blade's Armor Set",
+          "Iron Armor Set"
         ]
       },
       "spells": [
-        "Muffle",
         "Incinerate",
-        "Lightning Bolt",
-        "Lightning Bolt"
+        "Muffle",
+        "Bound Sword",
+        "Muffle"
       ],
       "shouts": [
-        "Ride Dragon",
-        "Slow Time",
-        "Ice Breath"
+        "Dragon Aspect",
+        "Fear and Dismay",
+        "Drain Vitality"
       ],
-      "standingStone": "The Mage Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Lady Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 4,
-    "name": "Daniels",
-    "author": "Jodi",
+    "id": 3,
+    "name": "Mcdonald Graves",
+    "author": "Bright",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Deserunt ex cillum incididunt anim ex do deserunt irure deserunt ullamco reprehenderit minim velit. Commodo labore ut cupidatat eu do eiusmod velit qui. Ad et ex consequat fugiat.",
-    "archetypes": "Warrior",
-    "race": "Argonian",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Velit do proident voluptate aliquip enim Lorem enim deserunt quis aliqua. Laboris velit ut ut fugiat ullamco. Mollit deserunt incididunt nulla adipisicing qui irure commodo Lorem nostrud magna ex aliquip ullamco nulla.\r\n",
+    "archetypes": "Paladin",
+    "race": "Dark Elf",
     "sex": "Male",
     "story": {
-      "backstory": "Consequat ad minim sint irure cupidatat ea. Est non est laboris tempor et sit aute enim duis. Culpa voluptate mollit reprehenderit dolore nulla fugiat velit. Ullamco reprehenderit pariatur magna nisi sunt aliqua anim ullamco et reprehenderit incididunt. Culpa veniam nisi elit adipisicing anim minim quis ea esse. Voluptate laboris cillum ut nisi. Ipsum sunt voluptate nulla consequat qui.\r\nVelit sit veniam eiusmod labore. Enim Lorem sit consequat nisi veniam dolor. Deserunt pariatur tempor labore duis duis qui eiusmod consequat magna deserunt. Labore sint cillum magna fugiat cupidatat ad magna quis eiusmod sunt. Lorem eu excepteur est occaecat aliqua adipisicing mollit mollit nulla. Dolor consequat minim reprehenderit labore incididunt quis pariatur adipisicing cillum amet reprehenderit laboris. Ullamco aute incididunt consectetur dolor cillum minim proident consequat irure deserunt ad.\r\nEx ad aliquip ex ex duis enim qui amet. Exercitation veniam dolore ut consectetur in incididunt non. Elit aliquip ut fugiat esse enim proident consequat eiusmod. Non magna magna cupidatat excepteur esse dolore voluptate est. Laborum commodo ullamco nulla laboris fugiat commodo. Ullamco irure aliqua qui in dolore.\r\n",
+      "backstory": "Minim exercitation est dolore aliqua irure eu Lorem aute pariatur ipsum esse commodo aute. Exercitation do ut incididunt laborum ex reprehenderit et in velit. Duis ex elit exercitation minim minim sit incididunt est aliquip voluptate. Veniam eiusmod esse exercitation quis aute exercitation. Dolor in aliquip aliquip deserunt occaecat ullamco excepteur nisi velit culpa ea incididunt Lorem.\r\nCillum enim amet cupidatat occaecat exercitation laborum. Nostrud labore velit est ut. Amet dolor aliquip aute aliqua anim irure aute. Exercitation dolore eu consectetur aute aute ullamco esse anim.\r\nExercitation velit incididunt officia dolore labore nostrud mollit qui minim sint Lorem do excepteur tempor. Lorem culpa ex labore qui elit nisi proident ullamco pariatur adipisicing fugiat deserunt. Voluptate sit occaecat qui eiusmod eiusmod exercitation commodo ipsum. Laboris cupidatat tempor ipsum ad. Elit laboris nisi ad enim enim sunt officia dolor. Qui nostrud excepteur labore ipsum. Irure irure velit ad irure et ex velit voluptate.\r\n",
       "questlines": [
-        "College of Winterhold",
-        "Bard's College",
-        "Dawnguard"
+        "Dawnguard",
+        "Main",
+        "Main"
       ],
-      "roleplay": "Voluptate labore officia commodo reprehenderit non ut tempor. Dolor velit in minim nostrud sunt aliqua non occaecat mollit fugiat occaecat veniam id. Pariatur incididunt Lorem occaecat consectetur cillum duis ut ad aliqua quis cillum nostrud. Non mollit nisi qui proident nulla velit velit duis non labore. Deserunt deserunt labore do nulla ex. Ad nostrud deserunt minim reprehenderit incididunt ad veniam. Non ad id exercitation fugiat esse commodo.\r\nCillum labore adipisicing voluptate ea voluptate culpa velit. Labore consequat incididunt aute et Lorem reprehenderit amet commodo sunt aute. Quis qui id id ipsum tempor magna qui excepteur velit et dolore mollit proident pariatur. Qui eu nisi dolore mollit minim dolor est amet pariatur reprehenderit aliqua incididunt deserunt aliquip. Non consequat culpa magna nisi consectetur elit sunt Lorem dolore. Proident quis commodo excepteur ullamco officia sint fugiat ad qui nisi elit velit. Minim dolor sit consequat pariatur magna laboris magna ullamco.\r\n"
+      "roleplay": "Magna in esse aute consequat do exercitation magna anim. Excepteur voluptate proident culpa ipsum consectetur mollit. Laboris aute dolor magna elit fugiat Lorem cupidatat nulla cupidatat veniam aliquip eu do. Veniam ad deserunt do ut id ea officia amet.\r\nOfficia sunt ipsum pariatur ad consequat et. Dolore mollit dolore Lorem mollit non esse pariatur nisi magna. Velit qui nostrud consectetur voluptate irure aliquip cillum veniam anim. Cillum quis ut deserunt tempor in officia labore velit incididunt qui.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Conjuration",
-        "Block"
+        "One-Handed",
+        "Destruction"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Blade's Sword",
+          "Steel Sword"
+        ],
+        "armor": [
+          "Iron Helmet",
+          "Iron Helmet"
+        ]
+      },
+      "spells": [
+        "Bound Sword",
+        "Lightning Bolt",
+        "Invisibility",
+        "Muffle"
+      ],
+      "shouts": [
+        "Drain Vitality",
+        "Ride Dragon",
+        "Fire Breath"
+      ],
+      "standingStone": "The Mage Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Rochelle Dudley",
+    "author": "Ellison",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Incididunt commodo tempor quis deserunt duis esse laborum occaecat officia magna et proident adipisicing exercitation. Ex incididunt sint in dolore ea nostrud. Magna do eiusmod id qui. Veniam ea in tempor nisi ut adipisicing veniam nostrud cillum amet eu consectetur cillum incididunt. Reprehenderit minim occaecat pariatur amet laborum mollit quis eu veniam magna. Consectetur occaecat tempor occaecat veniam velit aute. Commodo esse sunt magna excepteur dolore enim commodo fugiat deserunt consequat.\r\n",
+    "archetypes": "Thief",
+    "race": "Redguard",
+    "sex": "Any",
+    "story": {
+      "backstory": "Ullamco cupidatat irure dolore eu. Officia dolore est excepteur labore. Quis excepteur adipisicing enim ipsum non tempor aute duis aliquip ad ex. Culpa ullamco quis et quis incididunt.\r\nVoluptate elit adipisicing dolore enim eu adipisicing magna est ipsum sint sint. Et irure amet mollit exercitation aliqua qui mollit magna tempor est magna ad non reprehenderit. Veniam quis consectetur ex eu culpa. Ea occaecat voluptate sunt et nulla amet occaecat ullamco enim velit deserunt. Eu culpa ut aliqua reprehenderit ex reprehenderit nostrud mollit velit consequat. Et ipsum sunt duis nostrud mollit aliquip.\r\nEt adipisicing ut voluptate esse mollit dolor. Sunt veniam non deserunt quis. Elit occaecat do ad do. Nostrud excepteur adipisicing amet aute consequat. Adipisicing dolor non Lorem fugiat laboris magna dolore tempor. Dolor Lorem incididunt eu culpa irure id ullamco aliqua voluptate sint occaecat aliqua. Minim aliquip consectetur aute amet laborum nisi laborum adipisicing anim amet incididunt.\r\n",
+      "questlines": [
+        "Dark Brotherhood",
+        "Dawnguard",
+        "Thieve's Guild"
+      ],
+      "roleplay": "Esse cillum in et voluptate nostrud magna consequat Lorem adipisicing velit velit minim fugiat ullamco. Consectetur ex ipsum elit eu est nulla cupidatat ex. Adipisicing est cillum ea in non culpa.\r\nAliquip id irure enim tempor eiusmod quis sunt do aute laboris. Duis excepteur in commodo excepteur reprehenderit exercitation veniam aliquip labore. Eiusmod dolor deserunt nostrud consequat. Reprehenderit anim est aute esse eu amet quis fugiat qui sit. Amet eu duis do occaecat laborum ex ipsum.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Two-Handed",
+        "Archery"
       ],
       "perks": [],
       "equipment": {
@@ -282,182 +284,56 @@ export const characters = [
           "Dawnbreaker"
         ],
         "armor": [
-          "Iron Helmet",
-          "Ebony Mail"
+          "Archmage's Robes",
+          "Iron Helmet"
         ]
       },
       "spells": [
-        "Invisibility",
-        "Transmute Ore",
         "Bound Sword",
-        "Ice Spike"
-      ],
-      "shouts": [
-        "Ride Dragon",
-        "Fear and Dismay",
-        "Unrelenting Force"
-      ],
-      "standingStone": "The Lord Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Carson",
-    "author": "Angeline",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Ex laborum proident cillum nisi do deserunt culpa do id. Cillum irure quis aute labore do est aute nulla aliqua est aliquip irure. Labore exercitation excepteur occaecat cupidatat anim adipisicing aute cupidatat.",
-    "archetypes": "Thief",
-    "race": "Nord",
-    "sex": "Female",
-    "story": {
-      "backstory": "Amet ex dolor ut voluptate anim non cupidatat do. Non sunt nisi occaecat excepteur consequat nisi sit non et culpa eiusmod. Ea id excepteur Lorem commodo magna enim labore dolore amet veniam elit adipisicing minim. Et aliquip do et aliquip veniam proident aute non minim dolor adipisicing ea incididunt adipisicing.\r\nNostrud in voluptate commodo enim ea aliquip aute. Ullamco et incididunt laborum quis nisi occaecat deserunt commodo non aliqua cupidatat aute. Sit mollit nisi ipsum nulla quis nulla. Non proident ut ea ullamco dolore culpa dolor tempor velit. Commodo sunt aute sit velit ad. Eu dolor ad dolore culpa tempor aute Lorem reprehenderit ex enim. Eiusmod dolore officia laborum ex.\r\nLaborum exercitation exercitation eu aute adipisicing laborum qui. Laboris reprehenderit ex consequat fugiat ad amet amet. Amet esse excepteur irure cupidatat. Irure eiusmod eu adipisicing ea voluptate ut nostrud pariatur cupidatat consectetur in laborum pariatur.\r\n",
-      "questlines": [
-        "Thieve's Guild",
-        "Dark Brotherhood",
-        "Bard's College"
-      ],
-      "roleplay": "Fugiat nisi eiusmod eiusmod deserunt et magna sunt ex occaecat ea esse magna Lorem. Adipisicing minim aute ut enim consequat labore nisi do. Enim occaecat id dolor id labore ipsum magna nisi esse. Laborum esse in culpa esse aliqua velit.\r\nVeniam enim incididunt qui proident consequat cillum excepteur in. Officia sunt non ex nulla et officia et elit magna aute sunt nulla. Occaecat eu aute fugiat consequat fugiat veniam excepteur. Velit occaecat nisi voluptate ullamco aliqua veniam ut quis sint dolor ipsum sunt culpa ex. Incididunt quis sint nisi magna non enim laboris irure. Consequat mollit reprehenderit ullamco reprehenderit consequat. Quis excepteur ullamco incididunt laboris.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Illusion",
-        "One-Handed"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Iron Axe",
-          "Dawnbreaker"
-        ],
-        "armor": [
-          "Blade's Armor Set",
-          "Steel Armor Set"
-        ]
-      },
-      "spells": [
-        "Invisibility",
         "Fireball",
-        "Bound Sword",
-        "Muffle"
-      ],
-      "shouts": [
-        "Drain Vitality",
-        "Fear and Dismay",
-        "Drain Vitality"
-      ],
-      "standingStone": "The Mage Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Le",
-    "author": "Marcella",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Ullamco ut officia sunt deserunt dolor est ut pariatur esse aliquip qui. Laborum exercitation nisi dolor in sit aliquip deserunt enim. Nulla do nisi nostrud amet consectetur consequat non non velit cupidatat nostrud.",
-    "archetypes": "Paladin",
-    "race": "High Elf",
-    "sex": "Any",
-    "story": {
-      "backstory": "Nisi voluptate incididunt non dolor adipisicing fugiat quis. Qui fugiat et ad voluptate proident minim commodo adipisicing ullamco. Duis officia eiusmod aliquip voluptate. Occaecat ex eiusmod nostrud ipsum cupidatat laboris in dolore sunt laborum magna exercitation adipisicing. Culpa velit enim laboris amet laboris sit do officia.\r\nLaborum nulla mollit quis officia duis anim officia ea aliquip pariatur. Consectetur proident velit et sint est occaecat aliquip. Ullamco consequat fugiat veniam culpa.\r\nAmet nisi exercitation elit et nostrud est magna consectetur duis laboris nostrud ad. Mollit dolore adipisicing ad tempor exercitation minim. In ad cupidatat aliqua consequat adipisicing commodo cillum ad veniam ea deserunt magna. Et elit dolor nulla ipsum reprehenderit ut ut minim labore dolor nulla incididunt cupidatat exercitation. Exercitation mollit et nisi cupidatat eu consequat labore dolor duis. Reprehenderit ut quis commodo sit amet elit do voluptate culpa veniam exercitation.\r\n",
-      "questlines": [
-        "College of Winterhold",
-        "Main",
-        "Dragonborn"
-      ],
-      "roleplay": "Non qui quis elit id dolore qui. Do ea laboris excepteur et minim voluptate exercitation. Consequat tempor eu minim aute fugiat consequat ut in culpa. In nostrud labore deserunt anim magna officia sint. Culpa aliquip cillum est laboris irure eiusmod ea est adipisicing in Lorem. Lorem ut ullamco dolor officia irure amet.\r\nDo laboris ut veniam sunt magna veniam esse eiusmod sunt velit esse. Sunt culpa ut non duis ut amet proident officia qui reprehenderit. Velit exercitation nulla et dolor Lorem in incididunt qui duis irure id adipisicing ipsum et. Lorem consequat id exercitation dolore non cillum deserunt reprehenderit dolor eiusmod velit aliquip deserunt voluptate. Reprehenderit do pariatur do magna ex amet deserunt commodo reprehenderit eiusmod minim.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Destruction",
-        "Destruction"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Dawnbreaker",
-          "Steel Sword"
-        ],
-        "armor": [
-          "Iron Helmet",
-          "Steel Armor Set"
-        ]
-      },
-      "spells": [
-        "Invisibility",
-        "Ice Spike",
-        "Fireball",
+        "Lightning Bolt",
         "Fireball"
       ],
       "shouts": [
-        "Dragon Aspect",
+        "Unrelenting Force",
         "Fire Breath",
-        "Ride Dragon"
+        "Dragon Aspect"
       ],
-      "standingStone": "The Warrior Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Mage Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 7,
-    "name": "Kelley",
-    "author": "Robin",
+    "id": 5,
+    "name": "Trina Higgins",
+    "author": "Ladonna",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Esse do laborum non enim irure enim aute. Cupidatat excepteur amet consectetur ea deserunt ad aute voluptate sunt pariatur mollit ut cillum culpa. Non commodo eu sit est laborum non cupidatat occaecat proident sit.",
-    "archetypes": "Paladin",
-    "race": "High Elf",
-    "sex": "Male",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Sunt incididunt laboris laboris elit ea ad aliqua. Excepteur magna adipisicing enim id qui ullamco. Non id dolor id commodo nulla. Ipsum eu in voluptate irure ipsum culpa. Eiusmod excepteur consequat ea voluptate excepteur incididunt ea. Officia ex Lorem consectetur aliqua aliquip fugiat nostrud enim amet in anim eu in proident.\r\n",
+    "archetypes": "Assassin",
+    "race": "Dark Elf",
+    "sex": "Female",
     "story": {
-      "backstory": "Do nostrud laborum consectetur ullamco dolore qui ut irure proident quis aliqua sit. Cillum id occaecat laborum ea. Nisi sit aliqua nostrud sunt laborum exercitation anim occaecat mollit fugiat. Consequat duis ipsum minim labore amet ea cillum cupidatat quis nisi aliquip labore adipisicing commodo. Sunt ad aliquip aliqua ut dolore adipisicing. Nulla est adipisicing ea aliqua aliquip et dolore adipisicing labore in magna.\r\nIncididunt laboris dolore enim sint ut sit laborum amet sit esse non amet ipsum officia. Occaecat do reprehenderit incididunt adipisicing. Ipsum voluptate quis commodo eiusmod laboris laboris anim esse exercitation enim ea dolore. Veniam proident non id aliquip velit reprehenderit magna nulla nulla dolore do. Proident cillum ex pariatur labore officia fugiat sit mollit fugiat proident pariatur. Qui fugiat ullamco aliquip aliquip sit nisi id fugiat proident. Minim enim adipisicing pariatur est deserunt enim voluptate enim nisi duis.\r\nCulpa reprehenderit Lorem sit qui laborum nostrud excepteur est dolor laboris sint esse sunt. Sint ullamco est irure et pariatur pariatur ut eu ullamco pariatur dolor sit. Ullamco consectetur labore in dolore officia mollit culpa irure. Do elit elit incididunt amet amet laborum do laboris amet ullamco fugiat fugiat. Quis sint laborum sit incididunt aute minim.\r\n",
+      "backstory": "Magna cillum sint aliqua occaecat quis aute dolor laboris nisi Lorem. Incididunt elit proident aliqua anim exercitation culpa dolore ex anim aliqua. Consectetur sit proident do cupidatat eiusmod do aliquip non eiusmod. Mollit officia magna minim deserunt minim aliqua. Ut veniam irure adipisicing exercitation non voluptate amet adipisicing. Amet occaecat ut tempor laboris sunt.\r\nExcepteur quis laboris et et. Ut exercitation esse tempor officia ullamco aliqua esse est non excepteur ad id. Quis et pariatur anim nulla reprehenderit proident eu. Dolore ex Lorem aliquip sit aliqua dolore nulla officia magna ut consequat ipsum duis fugiat. Incididunt in duis excepteur amet. Amet deserunt eu tempor culpa reprehenderit magna.\r\nEa ullamco sunt sint incididunt. Voluptate mollit et nisi aliqua aliquip eiusmod minim proident laborum. Dolore quis ullamco esse non sit duis nisi Lorem id. Nostrud duis qui ea dolor in nostrud culpa et laboris irure ex ad. In aliquip irure tempor commodo laborum esse incididunt ad.\r\n",
       "questlines": [
-        "Dark Brotherhood",
-        "Dark Brotherhood",
-        "Bard's College"
+        "College of Winterhold",
+        "Dragonborn",
+        "Dark Brotherhood"
       ],
-      "roleplay": "Minim nisi non qui ipsum occaecat. In sunt enim dolore Lorem duis nostrud laboris incididunt laboris pariatur irure. Adipisicing consequat dolore dolor amet ullamco cupidatat nisi eiusmod incididunt amet. Sint voluptate sunt ex adipisicing cillum non anim aliqua consectetur do et. Exercitation enim ullamco qui qui aliquip est tempor enim cupidatat irure. Dolore nostrud laboris duis officia nostrud officia et exercitation occaecat amet consectetur magna ut. Aliquip sit pariatur mollit nulla dolor ex et enim non officia.\r\nEiusmod aliqua ullamco Lorem eu minim amet nostrud fugiat cupidatat. Minim aliquip eiusmod eiusmod do elit aliqua mollit. Nulla anim amet duis enim. Ex quis dolore cupidatat ea adipisicing aute laboris tempor nulla culpa. Occaecat eiusmod veniam voluptate sit aliquip anim mollit sunt amet voluptate in esse ipsum. Qui fugiat sint laborum laboris dolore fugiat nulla. Minim nisi in veniam commodo Lorem.\r\n"
+      "roleplay": "Ullamco eiusmod cillum in eiusmod duis minim consequat veniam duis ad reprehenderit labore. Cupidatat in irure Lorem occaecat velit magna non esse nulla commodo. Adipisicing nostrud tempor sint velit aute in proident est dolor labore. Veniam id qui officia incididunt est occaecat nulla mollit mollit ad.\r\nIpsum tempor aliquip tempor exercitation dolore consequat qui velit laboris deserunt. Enim id non adipisicing in duis aute deserunt. Nisi sit sint ea sit cillum minim officia ipsum cupidatat est enim quis dolore. Do cupidatat ad nostrud reprehenderit tempor sit enim ex qui reprehenderit fugiat velit. Qui sunt nulla cillum velit nulla elit laboris ullamco esse irure ut reprehenderit. Id anim sit esse aute labore laboris adipisicing sit qui est.\r\n"
     },
     "playstyle": {
       "skills": [
@@ -467,191 +343,128 @@ export const characters = [
       "perks": [],
       "equipment": {
         "weapons": [
-          "Blade of Woe",
-          "Blade of Woe"
+          "Dawnbreaker",
+          "Ebony Battleaxe"
         ],
         "armor": [
           "Daedric Armor Set",
-          "Archmage's Robes"
-        ]
-      },
-      "spells": [
-        "Invisibility",
-        "Fireball",
-        "Muffle",
-        "Fireball"
-      ],
-      "shouts": [
-        "Fire Breath",
-        "Slow Time",
-        "Ride Dragon"
-      ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Duffy",
-    "author": "Lacy",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Fugiat elit aliqua nulla labore duis aute id culpa sit ut amet nisi sit. Anim enim duis sint officia consectetur minim nisi non aute amet tempor consequat. Incididunt mollit quis sunt consequat.",
-    "archetypes": "Archer",
-    "race": "Nord",
-    "sex": "Female",
-    "story": {
-      "backstory": "Excepteur elit esse nulla culpa irure cillum do veniam nisi id. Mollit laboris qui sit velit amet enim in fugiat nisi mollit qui. In exercitation cupidatat adipisicing elit aliquip dolore non non elit culpa mollit ullamco qui ullamco.\r\nQuis in ea ex incididunt incididunt reprehenderit ut aute nulla Lorem. Exercitation eu veniam dolore dolore consequat qui consectetur amet. Eiusmod eiusmod Lorem labore consequat. Do id eu ullamco sint nostrud commodo anim eu consequat. Velit in excepteur cupidatat do eiusmod in eiusmod eu commodo eu consequat commodo fugiat dolor. Adipisicing ullamco nisi duis dolor ea laboris ex ex velit. Dolore occaecat reprehenderit cillum consequat est occaecat eu tempor velit.\r\nSint dolore nulla do ipsum elit est consequat aute laboris excepteur ut aliqua culpa ut. Nisi culpa nisi nisi velit excepteur adipisicing irure et. Deserunt cupidatat eiusmod ex anim deserunt. Laborum sit sint exercitation sit ut id velit ea. Voluptate nisi minim in id pariatur dolor aute et ea ullamco officia consequat proident.\r\n",
-      "questlines": [
-        "Dawnguard",
-        "College of Winterhold",
-        "Dawnguard"
-      ],
-      "roleplay": "Tempor nostrud exercitation occaecat magna. Lorem officia mollit quis esse adipisicing commodo quis dolore irure pariatur aliqua. Do ullamco aliquip ullamco eu et in ad. In commodo officia cupidatat dolore. Excepteur sunt pariatur culpa Lorem ut exercitation minim esse incididunt aliquip ea do.\r\nSit incididunt sunt velit laboris reprehenderit ut eu aute tempor reprehenderit nulla mollit incididunt aliqua. Amet pariatur non qui excepteur. Ad labore voluptate consectetur enim aliquip ut fugiat. Qui ullamco qui irure adipisicing. Ea duis est incididunt commodo ea ad anim reprehenderit nostrud proident. Voluptate pariatur mollit sit ut minim quis deserunt. Esse et et elit amet incididunt officia cupidatat ipsum fugiat nostrud est ea sit.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Illusion",
-        "Conjuration"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Iron Axe",
-          "Chillrend"
-        ],
-        "armor": [
-          "Archmage's Robes",
           "Ebony Armor Set"
         ]
       },
       "spells": [
+        "Muffle",
+        "Transmute Ore",
         "Fireball",
-        "Bound Sword",
-        "Incinerate",
-        "Incinerate"
+        "Transmute Ore"
       ],
       "shouts": [
-        "Ice Breath",
         "Dragon Aspect",
-        "Drain Vitality"
+        "Slow Time",
+        "Fire Breath"
       ],
-      "standingStone": "The Mage Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Lord Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 9,
-    "name": "Wilson",
-    "author": "Etta",
+    "id": 6,
+    "name": "Christensen Mercer",
+    "author": "Marshall",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Velit esse ad non reprehenderit Lorem irure mollit laboris. Dolore proident exercitation excepteur mollit excepteur velit nostrud velit adipisicing aute fugiat. Commodo sit tempor labore eiusmod et consectetur proident aliquip in dolore.",
-    "archetypes": "Archer",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Cillum labore amet deserunt cillum in sit. Excepteur do aute aute consectetur. Voluptate aliqua veniam velit ad duis eu esse et amet labore dolore qui.\r\n",
+    "archetypes": "Assassin",
     "race": "Dark Elf",
-    "sex": "Male",
+    "sex": "Any",
     "story": {
-      "backstory": "Veniam cillum veniam consequat voluptate elit aute. Exercitation qui exercitation mollit sit sit sunt proident laborum voluptate magna occaecat irure. Cupidatat exercitation dolore cupidatat culpa proident qui.\r\nNisi cillum aute ullamco sint velit et Lorem laboris. In deserunt ut voluptate deserunt sunt consectetur sunt dolor. Amet incididunt nulla sunt dolore nulla adipisicing qui. Adipisicing esse consectetur id magna incididunt exercitation cillum ad velit laboris laboris deserunt. Cupidatat id ut aliqua laboris proident non amet excepteur deserunt ut reprehenderit officia quis culpa.\r\nConsequat esse occaecat proident minim excepteur aliquip aute aute aliquip mollit consectetur mollit laboris. Incididunt excepteur fugiat minim esse tempor minim. Excepteur est do occaecat id eiusmod amet duis aute veniam non exercitation ullamco est. Labore commodo occaecat dolor quis non fugiat deserunt irure consequat enim aliquip ipsum labore. Enim sunt do ad exercitation ea do laborum aliqua laborum dolor. Quis aliqua officia id aute ipsum deserunt aliquip.\r\n",
+      "backstory": "Velit eu sit reprehenderit magna labore tempor nulla labore velit labore elit aliqua. Ipsum ad deserunt sunt duis mollit eiusmod excepteur aliquip nostrud duis eu occaecat quis. Dolore aliqua excepteur sit commodo magna labore. Amet anim velit ea laboris cupidatat veniam. Et magna culpa exercitation laboris quis laboris sint reprehenderit anim irure.\r\nLabore nisi mollit eu velit aliqua excepteur quis adipisicing labore non commodo nisi eu cupidatat. Adipisicing officia pariatur elit aliqua elit commodo id veniam aute quis sunt ex. Ad et non voluptate sit aliquip dolor magna Lorem elit non ad occaecat est. Excepteur enim nostrud ut reprehenderit nisi officia id pariatur. Nulla ex ipsum occaecat ullamco ipsum labore elit elit occaecat officia et consequat quis quis.\r\nAute commodo proident magna proident. Dolore tempor do cupidatat laboris consequat ea. Ea Lorem esse sit veniam do labore occaecat dolore occaecat pariatur.\r\n",
       "questlines": [
-        "Bard's College",
-        "Bard's College",
-        "Thieve's Guild"
+        "Dragonborn",
+        "Dawnguard",
+        "College of Winterhold"
       ],
-      "roleplay": "Qui id do deserunt nulla fugiat voluptate non dolor quis quis commodo. Nulla culpa aliqua voluptate eu exercitation velit ea qui sit id laborum. Adipisicing occaecat culpa excepteur dolor laboris ullamco ipsum Lorem commodo adipisicing mollit consequat esse. Aliqua reprehenderit reprehenderit nisi occaecat eu ad fugiat. Minim culpa aliqua Lorem sit velit adipisicing sunt eu eiusmod. Proident ut duis sit nulla ullamco sint do anim.\r\nEiusmod ullamco consequat enim sit cupidatat ullamco nisi amet ut cupidatat. Aute sint pariatur sit cupidatat aliqua sunt pariatur proident magna ea dolor deserunt. Voluptate veniam aute fugiat occaecat ut quis ex mollit minim sint aliqua veniam. Nostrud ad cillum do voluptate occaecat sunt nulla qui. Ullamco Lorem magna sint laboris et deserunt dolore dolore dolor do consectetur dolore eiusmod aliquip. Sint consectetur aliquip proident tempor minim dolore Lorem commodo ad.\r\n"
+      "roleplay": "Magna irure excepteur consequat tempor nulla ipsum do. Sit duis sit pariatur cillum minim aute commodo. Non occaecat in excepteur veniam. Labore consectetur nostrud ea aute ullamco. Velit laboris anim cupidatat duis mollit minim elit. Ullamco officia anim tempor incididunt ullamco non officia laboris Lorem minim. Duis proident deserunt fugiat commodo officia labore ipsum exercitation excepteur reprehenderit Lorem laborum id mollit.\r\nEt cillum sunt ea eiusmod aliquip eu anim amet irure eu exercitation voluptate adipisicing. Exercitation Lorem culpa ut occaecat officia qui officia. Irure aute excepteur quis culpa fugiat labore aliqua nostrud.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Restoration",
-        "Restoration"
+        "Conjuration",
+        "One-Handed"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
-          "Dawnbreaker",
-          "Chillrend"
+          "Chillrend",
+          "Steel Sword"
         ],
         "armor": [
-          "Blade's Armor Set",
-          "Steel Armor Set"
+          "Ebony Mail",
+          "Archmage's Robes"
         ]
       },
       "spells": [
-        "Transmute Ore",
-        "Bound Sword",
-        "Transmute Ore",
-        "Lightning Bolt"
+        "Lightning Bolt",
+        "Fireball",
+        "Fireball",
+        "Invisibility"
       ],
       "shouts": [
-        "Drain Vitality",
+        "Dragon Aspect",
         "Slow Time",
-        "Drain Vitality"
+        "Dragon Aspect"
       ],
-      "standingStone": "The Mage Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Thief Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 10,
-    "name": "Coffey",
-    "author": "Howard",
+    "id": 7,
+    "name": "Dolores Ryan",
+    "author": "Haley",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Quis consequat Lorem aliqua ex magna elit ea eiusmod ut ex dolor pariatur. Nostrud exercitation do duis quis cupidatat veniam nulla velit ut ullamco proident excepteur do cupidatat. Quis dolore sint irure magna minim.",
-    "archetypes": "Assassin",
-    "race": "High Elf",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "In laborum deserunt nulla irure excepteur ipsum aliqua. Nostrud proident eu quis labore esse anim reprehenderit aliquip velit veniam velit cupidatat. Adipisicing dolore ex enim veniam voluptate. Qui ullamco ex consequat nulla non esse minim ullamco sint sunt reprehenderit.\r\n",
+    "archetypes": "Bard",
+    "race": "Redguard",
     "sex": "Male",
     "story": {
-      "backstory": "Sunt nostrud incididunt nisi exercitation officia enim excepteur. Nisi reprehenderit consectetur labore exercitation reprehenderit laborum in mollit. Mollit adipisicing Lorem pariatur dolore enim ad irure.\r\nCulpa cupidatat quis aliquip cillum. Eu proident proident enim amet do do labore. Ullamco deserunt nostrud consectetur dolor eiusmod irure. Amet eiusmod proident ipsum ea. Cillum laborum amet enim dolore officia non ex occaecat. Magna amet amet aliqua tempor pariatur qui elit sunt dolor enim non.\r\nMagna exercitation irure est velit. Incididunt culpa consequat commodo occaecat elit. Duis sint excepteur culpa est veniam quis occaecat. Mollit nulla est enim amet eiusmod excepteur culpa exercitation incididunt labore ad qui laboris. Lorem consectetur occaecat non nostrud. Id est sunt fugiat ad eiusmod labore officia consequat incididunt sunt voluptate.\r\n",
+      "backstory": "Ea est non minim est in. Elit eu mollit cupidatat aliquip occaecat ut pariatur. Amet est ad sit ullamco et cupidatat elit nostrud magna minim dolor id ipsum commodo. Proident reprehenderit cillum dolor anim ex nisi eu. Consequat minim incididunt proident laborum sit veniam deserunt quis ad culpa do. Nostrud eiusmod proident pariatur do mollit enim deserunt Lorem veniam et. Deserunt pariatur mollit exercitation veniam exercitation minim eu deserunt laboris qui fugiat.\r\nReprehenderit ullamco magna anim ea veniam consectetur dolore in ut dolor. Laborum ad cupidatat commodo excepteur do in. Ipsum labore dolor culpa cupidatat Lorem in excepteur aliqua ea nulla minim velit veniam proident. Labore in consequat officia eu qui adipisicing est cillum non irure nulla. Anim consequat veniam velit Lorem elit id labore dolor exercitation est fugiat veniam officia. Mollit sit eiusmod elit consectetur minim magna. Deserunt do minim eu incididunt consequat anim incididunt consequat aute.\r\nDeserunt nulla Lorem est duis aute laboris consequat labore occaecat labore consequat ad ipsum dolore. Anim sint do commodo officia irure est. Fugiat deserunt labore fugiat fugiat deserunt exercitation ipsum qui sint excepteur ipsum eu reprehenderit. Id incididunt nisi voluptate cupidatat irure mollit non magna nulla nostrud.\r\n",
       "questlines": [
-        "Main",
-        "Bard's College",
-        "Dragonborn"
+        "College of Winterhold",
+        "Dawnguard",
+        "Dawnguard"
       ],
-      "roleplay": "Ea duis pariatur esse consectetur id cillum incididunt aute. Qui deserunt in anim quis. Sit anim aliquip id labore sunt. Reprehenderit proident sit irure magna sunt et officia incididunt laborum. Sunt dolor esse culpa eiusmod nisi commodo proident ullamco aute consequat ipsum quis proident. Nostrud nulla magna laboris nisi ex ea deserunt occaecat.\r\nEnim tempor nisi adipisicing aute tempor. Et ex adipisicing aliqua voluptate deserunt non. Non mollit id ipsum minim labore.\r\n"
+      "roleplay": "Laboris minim pariatur magna aliquip. Pariatur amet non Lorem aliqua dolore sit laborum officia. Sunt aute sint aliqua et fugiat enim deserunt anim. Duis id sint cillum commodo ex excepteur. Nulla cillum culpa irure officia.\r\nDeserunt minim ad veniam amet dolor veniam excepteur nulla voluptate. Proident consequat officia mollit quis laboris labore nisi pariatur. Culpa eiusmod non pariatur aute velit cupidatat ullamco anim anim adipisicing reprehenderit dolore Lorem. Esse nostrud ullamco Lorem mollit deserunt exercitation officia exercitation cupidatat ex ex. Duis mollit officia nisi proident do enim ipsum qui reprehenderit. Dolor qui ut aliqua aliquip.\r\n"
     },
     "playstyle": {
       "skills": [
-        "One-Handed",
-        "Conjuration"
+        "Conjuration",
+        "Destruction"
       ],
       "perks": [],
       "equipment": {
@@ -660,371 +473,119 @@ export const characters = [
           "Daedric Warhammer"
         ],
         "armor": [
-          "Blade's Armor Set",
-          "Iron Armor Set"
-        ]
-      },
-      "spells": [
-        "Invisibility",
-        "Fireball",
-        "Invisibility",
-        "Bound Sword"
-      ],
-      "shouts": [
-        "Ride Dragon",
-        "Ride Dragon",
-        "Unrelenting Force"
-      ],
-      "standingStone": "The Warrior Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Moreno",
-    "author": "Adela",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Cupidatat duis aute sunt sit adipisicing non veniam non reprehenderit adipisicing et minim. Sit ea amet dolor aute officia elit est adipisicing occaecat ea nisi. Cupidatat proident do ex sit Lorem Lorem aliquip.",
-    "archetypes": "Paladin",
-    "race": "Nord",
-    "sex": "Any",
-    "story": {
-      "backstory": "Voluptate veniam voluptate tempor velit dolor nisi irure. Duis proident est dolor veniam et et ullamco cillum minim sint ipsum consequat ut velit. Tempor proident aliquip qui irure cillum aliqua. In sit excepteur excepteur in ullamco velit magna aliquip aliquip amet ea quis ea. Nulla tempor minim cillum commodo nostrud aliqua ea. In adipisicing Lorem consequat sint qui.\r\nLorem irure irure amet reprehenderit aliqua veniam. Aute consequat do quis ipsum deserunt esse dolore qui exercitation ut dolor sint aliquip. Nisi amet irure culpa enim. Cillum enim ullamco ea ad elit velit consectetur occaecat ullamco incididunt velit reprehenderit exercitation cillum. Irure anim voluptate sint fugiat irure fugiat id eu exercitation consectetur nostrud pariatur est anim. Non fugiat consequat anim occaecat quis exercitation excepteur duis excepteur aute do labore. Anim sit dolor dolor magna cupidatat ut commodo incididunt.\r\nId cupidatat qui dolor anim laborum pariatur minim velit dolore occaecat adipisicing et anim. Exercitation enim cupidatat aute enim id id eiusmod duis. Pariatur fugiat in cupidatat laboris reprehenderit aliqua tempor deserunt officia adipisicing irure occaecat. Eu sunt et consequat aliqua incididunt cillum. Esse aute reprehenderit quis ullamco ex non. Nulla sunt amet aute ea proident proident deserunt tempor laboris.\r\n",
-      "questlines": [
-        "Dark Brotherhood",
-        "Main",
-        "Main"
-      ],
-      "roleplay": "Laborum velit incididunt aute consequat laboris proident ipsum cupidatat ipsum velit cupidatat non. Magna adipisicing proident elit dolor sit veniam ex sint nisi pariatur anim consectetur laborum. Exercitation mollit ullamco incididunt qui fugiat. Anim mollit id est id. Ea ex deserunt do sint irure est in cillum laboris sunt do pariatur exercitation. Duis aute non elit id do nisi non laboris consectetur reprehenderit in exercitation ex. Est minim magna fugiat quis esse voluptate dolore ex consectetur fugiat.\r\nMagna ea proident do non proident esse anim eu enim magna quis adipisicing deserunt est. Et veniam deserunt deserunt ipsum. Tempor non do qui do pariatur sit elit nulla cupidatat occaecat nisi occaecat id quis. Aliquip elit in aute voluptate.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "One-Handed",
-        "Block"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Steel Sword",
-          "Blade of Woe"
-        ],
-        "armor": [
-          "Archmage's Robes",
+          "Iron Armor Set",
           "Ebony Mail"
         ]
       },
       "spells": [
         "Invisibility",
         "Muffle",
-        "Incinerate",
-        "Transmute Ore"
+        "Transmute Ore",
+        "Lightning Bolt"
       ],
       "shouts": [
-        "Unrelenting Force",
         "Fire Breath",
-        "Ride Dragon"
+        "Ice Breath",
+        "Dragon Aspect"
       ],
-      "standingStone": "The Mage Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Lady Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 12,
-    "name": "Kane",
-    "author": "Ellison",
+    "id": 8,
+    "name": "Schmidt Bartlett",
+    "author": "Emerson",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Duis ex commodo exercitation aliqua voluptate mollit. Cupidatat laboris fugiat incididunt labore aliqua irure aute cupidatat veniam excepteur aute consectetur cupidatat. Eu reprehenderit irure enim enim irure et tempor.",
-    "archetypes": "Archer",
-    "race": "Redguard",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Ad ex adipisicing velit proident nostrud eu laborum cillum labore anim labore deserunt. Sint ullamco voluptate consectetur anim eiusmod magna do. Nulla velit sunt incididunt ullamco Lorem officia cillum in nisi eu. Lorem sint deserunt excepteur nostrud commodo elit eu cupidatat. Enim voluptate do enim eu incididunt adipisicing excepteur id est excepteur sit deserunt est. Commodo sit dolor adipisicing culpa commodo proident do.\r\n",
+    "archetypes": "Paladin",
+    "race": "Argonian",
     "sex": "Any",
     "story": {
-      "backstory": "Ipsum in laborum nisi labore magna fugiat eiusmod commodo ullamco cillum. Minim veniam irure esse labore mollit ut aliqua amet sit. Qui commodo duis ad ea dolore consequat tempor. Sit fugiat ex velit cupidatat laboris magna. Sit consectetur Lorem exercitation eiusmod deserunt ipsum. Enim cupidatat Lorem tempor cillum cillum adipisicing occaecat consectetur occaecat nisi velit.\r\nAute eu laborum dolor deserunt do eu est excepteur proident. Non eu est qui dolor aute aliquip consectetur duis veniam commodo consectetur. Velit sint ipsum magna Lorem velit et velit ex duis laborum consectetur. Officia ipsum eu velit cupidatat cillum ullamco culpa mollit. Id in labore pariatur enim aliquip aute aliquip aute occaecat magna sunt. Deserunt qui quis nisi magna adipisicing. Velit consequat exercitation consectetur aute officia proident elit cillum consequat.\r\nOccaecat officia consequat aute nisi dolor irure magna nostrud reprehenderit. Incididunt ea ea deserunt cupidatat quis proident enim. Consectetur qui aliquip sint Lorem. Deserunt amet labore officia minim occaecat tempor incididunt eiusmod officia labore enim.\r\n",
+      "backstory": "Exercitation sint incididunt tempor laboris enim consectetur minim consequat ad. Commodo ea et mollit culpa dolore reprehenderit ex duis cupidatat eu est. Nulla dolore eiusmod occaecat labore qui ipsum qui deserunt nulla. Duis consequat excepteur esse esse laborum aliquip mollit. Esse aute incididunt excepteur incididunt enim id veniam minim.\r\nCupidatat fugiat excepteur dolore do esse ipsum fugiat. Sunt excepteur est ex est deserunt reprehenderit ipsum nulla laboris cupidatat labore. Nisi amet ullamco exercitation ullamco consectetur proident quis aute eiusmod duis aliqua pariatur amet laborum. Minim eu dolore eu nulla esse velit aliqua. Id non ipsum aute labore eu mollit officia est id incididunt pariatur enim est dolor.\r\nEa aute adipisicing tempor incididunt. Sunt eu dolor anim esse est aliquip sit velit. Commodo proident consectetur ex aliqua anim. Duis et enim cupidatat esse. Esse aliqua ad minim sunt commodo. Tempor officia duis pariatur exercitation laborum non.\r\n",
       "questlines": [
-        "Dragonborn",
+        "Bard's College",
         "Dawnguard",
-        "Thieve's Guild"
+        "College of Winterhold"
       ],
-      "roleplay": "Incididunt culpa minim id consequat nisi ad est magna excepteur quis. Pariatur ea laboris magna aliquip non reprehenderit Lorem qui officia. Nisi commodo fugiat est exercitation magna Lorem sit exercitation eu cupidatat in esse. Enim aliquip consequat amet minim eu proident. Consequat ea elit consectetur aute amet ea anim qui enim. Cillum nostrud eu duis fugiat. Sint non anim amet sint ut cupidatat excepteur consectetur dolore elit.\r\nEnim exercitation do consequat est veniam qui sit nulla esse nulla fugiat esse minim. Cillum consequat labore eu ut in anim elit ad. Est anim do exercitation minim tempor ex officia mollit labore qui nostrud consequat qui. Aliquip laboris sint et exercitation officia voluptate. Velit pariatur quis qui anim ad occaecat irure aliquip consequat mollit voluptate. Nulla mollit reprehenderit reprehenderit est dolor incididunt id consectetur excepteur laborum irure excepteur. Ad deserunt eiusmod deserunt commodo reprehenderit et nostrud eu excepteur.\r\n"
+      "roleplay": "Eiusmod incididunt excepteur minim ipsum ullamco nostrud. Exercitation labore do ex consequat est pariatur eu exercitation deserunt pariatur. Sunt qui irure mollit est voluptate ullamco qui aliqua laboris. Exercitation ullamco amet aliqua ea laborum aute laboris. Elit ex sit voluptate fugiat esse occaecat eu anim elit duis. Pariatur minim exercitation excepteur velit. Est reprehenderit consectetur enim occaecat sit ut occaecat dolor commodo.\r\nExercitation Lorem fugiat amet laboris est Lorem commodo elit excepteur est dolor. Culpa non dolore eu excepteur ea elit elit excepteur commodo non nostrud ex. Ea nulla commodo ipsum sunt Lorem fugiat.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Conjuration",
-        "Destruction"
+        "One-Handed",
+        "One-Handed"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
-          "Daedric Warhammer",
-          "Dawnbreaker"
-        ],
-        "armor": [
-          "Iron Helmet",
-          "Archmage's Robes"
-        ]
-      },
-      "spells": [
-        "Incinerate",
-        "Fireball",
-        "Invisibility",
-        "Bound Sword"
-      ],
-      "shouts": [
-        "Unrelenting Force",
-        "Unrelenting Force",
-        "Fear and Dismay"
-      ],
-      "standingStone": "The Thief Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Sharp",
-    "author": "Joseph",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Velit minim Lorem sunt velit sunt. Aute incididunt laboris ullamco in in sint minim. Magna elit ea non sunt nisi pariatur voluptate eu ipsum Lorem officia consequat nostrud.",
-    "archetypes": "Archer",
-    "race": "Dark Elf",
-    "sex": "Male",
-    "story": {
-      "backstory": "Ad eiusmod ex aliquip dolore velit quis adipisicing minim deserunt Lorem. Ea nostrud amet non excepteur pariatur eu voluptate ad. Aliquip magna fugiat qui velit pariatur et reprehenderit consectetur eiusmod. Culpa exercitation sit ex consequat occaecat fugiat in duis. Consequat aliquip pariatur amet minim nostrud est quis quis in culpa ex aute. Ut qui irure Lorem sint eu ullamco veniam ad proident velit.\r\nDo quis mollit reprehenderit magna eu exercitation occaecat sit cillum voluptate. Quis ex ipsum ea deserunt aute laboris. Fugiat magna ad et magna aliqua. Labore laboris dolore ex minim irure occaecat. Enim dolore elit ipsum sunt in elit consectetur exercitation fugiat minim occaecat laboris sit. Velit excepteur velit ex aute veniam ut duis occaecat sit ut non minim aute.\r\nNostrud Lorem non voluptate voluptate sunt amet sit nulla consectetur dolore exercitation fugiat occaecat. Reprehenderit excepteur eu ipsum ex aliqua proident cupidatat excepteur voluptate velit laborum nisi sit consectetur. Duis elit non ea consequat qui elit cupidatat.\r\n",
-      "questlines": [
-        "Dragonborn",
-        "Dawnguard",
-        "Thieve's Guild"
-      ],
-      "roleplay": "Ullamco aliquip consectetur proident sint excepteur velit cillum reprehenderit elit. Voluptate amet ipsum dolore exercitation officia sint consequat mollit mollit velit officia proident ex. Deserunt pariatur id exercitation ex ex anim eu duis id eu. Elit culpa ullamco do mollit occaecat commodo proident. Exercitation quis culpa excepteur dolore ullamco irure aliquip ullamco velit exercitation proident duis occaecat.\r\nMinim duis ex nulla nulla laborum ea. Nisi minim reprehenderit do velit veniam sunt labore nulla id in. Pariatur ullamco qui adipisicing aute duis quis non aliquip ullamco voluptate nulla in. Lorem non ad enim aliqua aliquip. Dolore irure exercitation ipsum adipisicing. Anim sint est et aute minim ex.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Conjuration",
-        "Two-Handed"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Iron Axe",
+          "Steel Sword",
           "Steel Sword"
         ],
         "armor": [
-          "Archmage's Robes",
-          "Iron Armor Set"
-        ]
-      },
-      "spells": [
-        "Muffle",
-        "Ice Spike",
-        "Incinerate",
-        "Muffle"
-      ],
-      "shouts": [
-        "Slow Time",
-        "Dragon Aspect",
-        "Slow Time"
-      ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Perry",
-    "author": "Erin",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Ut eiusmod amet aliqua officia ullamco ex est exercitation. Velit dolor laborum laboris adipisicing elit aliqua velit. Sint aute exercitation dolore ullamco nisi quis dolor velit esse reprehenderit fugiat ea laboris.",
-    "archetypes": "Archer",
-    "race": "Argonian",
-    "sex": "Male",
-    "story": {
-      "backstory": "Amet ea sunt cupidatat consequat dolor in tempor ut magna tempor Lorem qui. Consectetur tempor laborum aute quis. Dolore reprehenderit magna aute ad cillum quis consequat excepteur elit. Elit ullamco eu deserunt nostrud deserunt anim aliquip ut in. Anim ullamco non officia fugiat Lorem ipsum in nisi minim.\r\nAnim adipisicing proident tempor aute occaecat. Do ex adipisicing ea esse excepteur incididunt culpa fugiat ea pariatur cupidatat mollit. Ipsum adipisicing sit sint fugiat dolor voluptate nisi quis consectetur nulla consectetur ullamco esse. Nulla nisi ea aliquip adipisicing dolor minim id. Sit commodo incididunt voluptate duis elit ut mollit proident eu in magna aliqua et.\r\nDolore ad est Lorem aute voluptate. Nisi nisi id deserunt commodo voluptate. Sint pariatur nisi laboris consequat do nulla quis. Dolore culpa occaecat minim irure commodo nostrud incididunt officia. Id enim deserunt irure sit qui minim consectetur tempor. Enim esse nisi incididunt culpa.\r\n",
-      "questlines": [
-        "Dawnguard",
-        "Thieve's Guild",
-        "Thieve's Guild"
-      ],
-      "roleplay": "Aute dolor amet qui culpa irure amet eu nostrud veniam Lorem. Fugiat sunt anim ex proident. Commodo occaecat incididunt occaecat id cupidatat consequat aliqua consectetur duis esse labore fugiat nulla. Lorem Lorem nisi irure culpa.\r\nNulla magna esse amet consectetur aliquip labore qui eu nisi sint. Minim do proident exercitation sint culpa occaecat sint proident duis laborum mollit velit commodo proident. Ullamco ut ad sit ipsum ex. Cillum incididunt aliqua proident irure. Exercitation non fugiat do tempor magna dolore. Do ea id in laboris nisi fugiat amet ea et proident. Commodo proident sit irure magna non aliqua nulla veniam proident Lorem irure dolore ipsum velit.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Restoration",
-        "Restoration"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Daedric Warhammer",
-          "Daedric Warhammer"
-        ],
-        "armor": [
-          "Iron Armor Set",
+          "Ebony Armor Set",
           "Steel Armor Set"
         ]
       },
       "spells": [
-        "Incinerate",
-        "Incinerate",
-        "Bound Sword",
-        "Invisibility"
-      ],
-      "shouts": [
-        "Dragon Aspect",
-        "Ice Breath",
-        "Drain Vitality"
-      ],
-      "standingStone": "The Warrior Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "Kaufman",
-    "author": "Sharon",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Enim id ipsum dolore proident fugiat occaecat sint culpa sit. Nulla eiusmod anim dolor veniam pariatur est qui. Ex ex consequat officia fugiat.",
-    "archetypes": "Archer",
-    "race": "Argonian",
-    "sex": "Male",
-    "story": {
-      "backstory": "Fugiat est laborum ullamco voluptate eiusmod. Sit irure elit exercitation Lorem ullamco quis quis voluptate quis incididunt exercitation tempor. Et irure sit quis officia non. Sunt nulla nulla duis quis deserunt Lorem. Exercitation elit pariatur minim ea eiusmod tempor cillum quis nisi. Anim voluptate irure adipisicing ipsum sint aliqua duis nostrud consectetur laborum deserunt officia.\r\nConsequat sunt non sit qui sint esse ullamco et ut. Enim officia dolore quis ex sunt commodo nostrud anim nulla velit ipsum qui consequat nostrud. Cillum aliquip qui id ullamco reprehenderit aliquip nisi. Commodo veniam consequat quis elit et commodo ea consectetur tempor cupidatat voluptate consectetur sunt. Excepteur quis magna amet ullamco non ullamco est commodo consequat eiusmod reprehenderit est. Anim dolore officia nulla eu in in irure veniam ullamco tempor. Ex deserunt occaecat duis nostrud laborum consequat sit veniam est nulla.\r\nElit eu veniam ut sunt tempor id eu. Sunt culpa anim laborum voluptate ea et enim cupidatat ipsum sunt laboris occaecat ipsum. Eu anim laborum adipisicing ipsum tempor cillum.\r\n",
-      "questlines": [
-        "Bard's College",
-        "Dragonborn",
-        "Dark Brotherhood"
-      ],
-      "roleplay": "Esse dolor deserunt minim et est velit sint ea. Veniam sint consectetur labore sint mollit quis eiusmod fugiat. Sit sint qui consectetur est pariatur esse amet fugiat anim consectetur sint nostrud.\r\nMollit commodo laboris nisi sit commodo commodo aute fugiat deserunt. Nulla voluptate elit ad quis nostrud nisi ad aliquip magna ex. Ut enim amet nulla Lorem excepteur nostrud. Commodo ad irure pariatur eu incididunt ullamco non. Incididunt labore voluptate culpa qui anim irure dolore non eu laborum commodo nostrud.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Block",
-        "Two-Handed"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Chillrend",
-          "Daedric Warhammer"
-        ],
-        "armor": [
-          "Steel Armor Set",
-          "Iron Armor Set"
-        ]
-      },
-      "spells": [
-        "Muffle",
         "Invisibility",
-        "Bound Sword",
-        "Bound Sword"
+        "Fireball",
+        "Invisibility",
+        "Incinerate"
       ],
       "shouts": [
-        "Drain Vitality",
+        "Unrelenting Force",
         "Ride Dragon",
-        "Fire Breath"
+        "Ride Dragon"
       ],
-      "standingStone": "The Thief Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Lord Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 16,
-    "name": "Ortiz",
-    "author": "Mason",
+    "id": 9,
+    "name": "Nelson Stone",
+    "author": "Tammie",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Aliquip nisi ea enim quis sit ut voluptate dolor. Anim ea ex reprehenderit duis commodo duis est. Esse sint laborum do eiusmod.",
-    "archetypes": "Thief",
-    "race": "Redguard",
-    "sex": "Any",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Consectetur aliquip pariatur nulla et. Irure id in aliqua ullamco nisi Lorem irure fugiat commodo quis duis pariatur cupidatat. Sit veniam sint est reprehenderit eu elit ad anim.\r\n",
+    "archetypes": "Paladin",
+    "race": "Dark Elf",
+    "sex": "Female",
     "story": {
-      "backstory": "Culpa commodo incididunt exercitation excepteur ullamco occaecat. Incididunt sunt fugiat aliquip esse voluptate ullamco voluptate culpa sit nisi id sunt. Excepteur id minim laborum enim ex cupidatat aliquip excepteur commodo excepteur in. Deserunt sit deserunt eu sint reprehenderit elit Lorem excepteur qui dolor sit tempor exercitation excepteur. Velit id ex laboris nostrud consequat non.\r\nAd ea sint officia proident nisi dolor voluptate. Est Lorem duis labore sunt et consectetur aliquip tempor ut est. Nostrud veniam exercitation voluptate magna excepteur fugiat.\r\nDeserunt fugiat magna aliquip qui anim et. Amet fugiat proident nisi in nostrud labore in culpa. Sunt aute esse deserunt sit ex. Nisi tempor non laboris excepteur reprehenderit elit commodo in veniam duis excepteur. Dolore laboris aute voluptate velit amet quis pariatur.\r\n",
+      "backstory": "Cillum exercitation cupidatat deserunt deserunt esse amet eu fugiat pariatur Lorem. Esse eu proident proident minim ipsum laborum. Amet eu ullamco dolore commodo excepteur exercitation non.\r\nCommodo ex nulla deserunt culpa ea veniam Lorem consectetur nulla sunt tempor. Voluptate aute voluptate amet anim pariatur ut. Nisi cillum aliqua aliqua officia fugiat minim tempor occaecat. Dolore duis dolore exercitation dolor id officia quis duis Lorem.\r\nFugiat cupidatat consectetur nulla ut officia cupidatat eiusmod. Tempor ipsum sunt excepteur aliquip magna sint eiusmod non. Deserunt duis voluptate ut tempor aliquip irure laboris pariatur amet voluptate eu ad aliquip sit. Ea sunt irure tempor veniam tempor pariatur pariatur non anim sint ut labore ex ut.\r\n",
       "questlines": [
-        "Main",
-        "Bard's College",
-        "Thieve's Guild"
+        "Dark Brotherhood",
+        "Thieve's Guild",
+        "College of Winterhold"
       ],
-      "roleplay": "Amet adipisicing mollit nostrud tempor amet dolore eiusmod duis nulla eu anim non ipsum. Ut enim sunt voluptate veniam sunt nisi esse voluptate in velit. Velit dolor nulla ullamco adipisicing anim ea ea laboris ad.\r\nDuis ipsum ad veniam elit est incididunt occaecat. Officia minim aliquip excepteur quis adipisicing culpa. Occaecat exercitation cillum ea aliqua sint reprehenderit veniam. Sunt cupidatat esse non aliqua do veniam adipisicing elit et sit consequat Lorem.\r\n"
+      "roleplay": "Tempor sint pariatur eiusmod ullamco sint do minim dolor magna. Ipsum laborum magna et ut sunt quis esse dolore sint dolore. Sint non amet eu sint occaecat aliquip esse commodo Lorem. Quis ad exercitation aliquip in est aliqua magna anim.\r\nQui et ea voluptate eiusmod et eu reprehenderit elit pariatur incididunt enim aliquip exercitation. Laboris qui velit reprehenderit irure sit ea. Tempor culpa elit ea ad duis magna labore nostrud. Exercitation esse laborum eu commodo sunt adipisicing quis laborum consectetur voluptate Lorem. Lorem pariatur minim occaecat nulla commodo amet voluptate ipsum ullamco aliqua duis consectetur. Culpa cupidatat ad irure excepteur deserunt aute pariatur. Aliquip excepteur consectetur elit fugiat do ut aliqua consectetur sunt id elit.\r\n"
     },
     "playstyle": {
       "skills": [
@@ -1035,133 +596,70 @@ export const characters = [
       "equipment": {
         "weapons": [
           "Steel Sword",
-          "Ebony Battleaxe"
+          "Blade of Woe"
         ],
         "armor": [
-          "Iron Armor Set",
+          "Daedric Armor Set",
           "Ebony Armor Set"
         ]
       },
       "spells": [
-        "Bound Sword",
+        "Transmute Ore",
         "Invisibility",
-        "Fireball",
-        "Transmute Ore"
+        "Invisibility",
+        "Lightning Bolt"
       ],
       "shouts": [
-        "Ride Dragon",
-        "Unrelenting Force",
-        "Fear and Dismay"
+        "Ice Breath",
+        "Slow Time",
+        "Fire Breath"
       ],
-      "standingStone": "The Lord Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Mage Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 17,
-    "name": "Casey",
-    "author": "Lesley",
+    "id": 10,
+    "name": "Felicia Vazquez",
+    "author": "Davis",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Consectetur aliqua do adipisicing mollit esse mollit sit aliquip labore sunt qui. Voluptate nulla labore magna irure. Enim tempor ex cupidatat irure tempor.",
-    "archetypes": "Paladin",
-    "race": "Redguard",
-    "sex": "Any",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Ad exercitation fugiat aute occaecat qui sint commodo ut ullamco deserunt est. Laboris aliquip eu enim ipsum in anim aliquip commodo dolor reprehenderit reprehenderit duis. Qui labore consequat sint exercitation. Tempor ipsum velit dolore incididunt anim et.\r\n",
+    "archetypes": "Bard",
+    "race": "Argonian",
+    "sex": "Female",
     "story": {
-      "backstory": "Laboris eu non amet quis incididunt culpa laboris sit cupidatat in officia aute. Dolor reprehenderit anim veniam irure ut dolore consectetur pariatur consectetur aliquip non reprehenderit. Magna nisi esse velit laborum laboris do aliqua. Esse laboris dolore qui labore mollit non consectetur. Aliqua aliqua sint ullamco nulla nisi. Quis nostrud ex cupidatat anim. Ex Lorem aute anim cillum dolore.\r\nAnim do sint incididunt minim excepteur aliquip dolore quis sint. Mollit adipisicing non pariatur dolor adipisicing commodo proident fugiat. Est magna sit ullamco cillum non consequat velit dolor et quis.\r\nAliquip excepteur incididunt nostrud est pariatur exercitation et mollit in sit amet ea occaecat. Lorem quis aute est dolore velit elit id id esse est. Quis incididunt sit et aliquip. Ut ut deserunt do reprehenderit nulla culpa labore labore quis mollit. Lorem nisi sunt qui est anim duis quis. Eu aute adipisicing reprehenderit aliquip ut consequat est esse veniam aute. Esse veniam reprehenderit dolore quis dolor fugiat aute ex velit.\r\n",
+      "backstory": "Quis labore amet dolor quis ut fugiat do id id ipsum cillum exercitation minim. Incididunt et Lorem Lorem eu. Nisi voluptate excepteur incididunt dolor. Pariatur consectetur aute culpa eu ut enim nostrud deserunt fugiat.\r\nEst Lorem aliqua fugiat dolor culpa do ad voluptate. Consequat est ullamco sit sint cupidatat anim sunt magna velit pariatur amet et ea esse. Ipsum proident est et tempor ex proident labore laboris labore culpa velit. Qui et enim exercitation irure pariatur laboris adipisicing elit minim amet deserunt in tempor labore.\r\nQuis enim est labore consectetur esse ad non laboris velit laborum fugiat qui amet aute. Ut ipsum do fugiat elit laboris voluptate. Elit aliqua anim elit id anim est tempor cillum. Nulla commodo tempor laborum voluptate sit aliqua elit excepteur. Minim dolor deserunt quis occaecat pariatur qui consectetur esse id aliqua eiusmod labore.\r\n",
       "questlines": [
-        "Dragonborn",
-        "Bard's College",
-        "Dragonborn"
+        "Dark Brotherhood",
+        "Dawnguard",
+        "Bard's College"
       ],
-      "roleplay": "Exercitation proident adipisicing qui officia in nostrud. Lorem enim ex qui adipisicing dolore anim est enim tempor cillum laborum ea. Velit irure sunt dolore occaecat voluptate sunt Lorem voluptate minim reprehenderit non tempor. Nulla pariatur nulla sit pariatur tempor anim ea ea. Excepteur sit sunt eiusmod aliqua.\r\nIrure amet adipisicing cupidatat voluptate nostrud eu labore pariatur nulla sit culpa. Adipisicing dolor eu irure in culpa sit elit tempor non est ex elit consequat. Irure aute id esse ullamco consequat incididunt ipsum. Nostrud Lorem consequat dolore magna deserunt laboris. Duis consequat aliqua culpa ullamco velit dolor ullamco dolore non dolor.\r\n"
+      "roleplay": "Incididunt consectetur ad ullamco ea non irure exercitation do sunt. Culpa anim non ut duis nulla minim et. Eiusmod cillum sint fugiat id dolor consequat voluptate velit fugiat ullamco. Elit amet adipisicing irure nisi.\r\nExcepteur ea laboris adipisicing reprehenderit enim. Deserunt sunt commodo pariatur tempor enim cupidatat voluptate pariatur veniam irure excepteur amet irure cupidatat. Occaecat eu ut fugiat elit ullamco. Est aliqua nostrud cupidatat non minim et dolor cillum ullamco sit commodo. Laborum fugiat ullamco est ut. Eiusmod velit velit ad qui excepteur laboris sunt irure magna. Velit exercitation laborum exercitation laboris magna quis qui.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Illusion",
+        "Destruction",
         "Restoration"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
-          "Steel Sword",
-          "Daedric Warhammer"
-        ],
-        "armor": [
-          "Ebony Mail",
-          "Iron Armor Set"
-        ]
-      },
-      "spells": [
-        "Fireball",
-        "Incinerate",
-        "Fireball",
-        "Muffle"
-      ],
-      "shouts": [
-        "Fire Breath",
-        "Fire Breath",
-        "Drain Vitality"
-      ],
-      "standingStone": "The Lord Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "name": "Mendez",
-    "author": "French",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Proident anim culpa mollit eu nulla dolor tempor quis exercitation adipisicing incididunt deserunt veniam. Velit est qui labore mollit cillum pariatur nisi. Sit fugiat commodo labore sint do.",
-    "archetypes": "Assassin",
-    "race": "Redguard",
-    "sex": "Male",
-    "story": {
-      "backstory": "Esse elit esse magna ea excepteur laborum eu deserunt exercitation dolore duis ullamco et ea. Ullamco eu amet incididunt ea est in magna deserunt sunt. Et minim elit quis sit esse tempor.\r\nAnim non irure et in elit amet sint ea. Qui laborum id dolore eu occaecat eiusmod in ullamco quis laboris. Eu mollit eiusmod nisi sint esse tempor excepteur labore officia consequat nulla pariatur. Adipisicing occaecat qui enim nisi enim pariatur.\r\nCommodo sit sunt laboris labore. Eu reprehenderit ex sunt enim est nostrud proident elit ut cillum esse in fugiat irure. Nulla duis proident laboris Lorem ullamco occaecat voluptate et est. Mollit laboris enim ipsum id ut. Sint ullamco dolore adipisicing quis aliquip proident ad do aliqua minim.\r\n",
-      "questlines": [
-        "Main",
-        "Dark Brotherhood",
-        "College of Winterhold"
-      ],
-      "roleplay": "Sunt eu occaecat duis amet et labore pariatur fugiat in do velit. Magna enim veniam excepteur sunt eiusmod qui commodo anim cillum fugiat. Enim adipisicing ipsum irure duis tempor labore. Duis aliquip laborum dolore nisi ut nisi est duis minim pariatur adipisicing Lorem adipisicing excepteur.\r\nMollit enim eu mollit do et incididunt do minim enim anim sunt labore eu eu. Labore nostrud pariatur cillum ex magna ut officia eu anim magna cillum aliqua. Do incididunt eu mollit elit. Est nisi nostrud aliquip voluptate voluptate tempor anim. Nisi dolor ullamco est ad fugiat non eu commodo ut commodo consequat. Id elit cupidatat consectetur fugiat irure id esse. Sit voluptate amet ad cillum qui qui do eu elit aliquip eiusmod.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Conjuration",
-        "Two-Handed"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Iron Axe",
-          "Iron Axe"
+          "Ebony Battleaxe",
+          "Chillrend"
         ],
         "armor": [
           "Steel Armor Set",
@@ -1170,176 +668,554 @@ export const characters = [
       },
       "spells": [
         "Ice Spike",
-        "Invisibility",
-        "Incinerate",
-        "Lightning Bolt"
+        "Ice Spike",
+        "Fireball",
+        "Bound Sword"
       ],
       "shouts": [
-        "Slow Time",
-        "Drain Vitality",
-        "Ice Breath"
+        "Fear and Dismay",
+        "Fear and Dismay",
+        "Fear and Dismay"
       ],
-      "standingStone": "The Thief Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Thief Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 19,
-    "name": "Lane",
-    "author": "Celina",
+    "id": 11,
+    "name": "Klein Ruiz",
+    "author": "Sharp",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Cupidatat quis duis aliquip non tempor. Tempor est ad labore excepteur sunt irure commodo labore excepteur exercitation ad magna est ipsum. Mollit non adipisicing sint occaecat.",
-    "archetypes": "Bard",
-    "race": "High Elf",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Qui sunt duis sit qui officia fugiat deserunt proident minim et. Elit ipsum culpa anim irure et veniam sunt velit. Laboris do laboris reprehenderit in et eiusmod sunt ut dolore et ex. Non fugiat elit excepteur eiusmod laboris ullamco consectetur nulla quis exercitation quis sit. Enim dolore proident esse enim sunt enim. Quis quis anim consectetur veniam magna ullamco. Aute velit reprehenderit laboris esse deserunt.\r\n",
+    "archetypes": "Warrior",
+    "race": "Argonian",
     "sex": "Female",
     "story": {
-      "backstory": "Laborum ad reprehenderit non sint deserunt sit elit quis minim. Dolore id mollit consequat quis qui do velit ea reprehenderit proident cupidatat laboris. Minim non in ea duis sit. Eiusmod qui excepteur do eiusmod. Et sit et ut ullamco voluptate culpa fugiat eu mollit pariatur cupidatat dolor incididunt non.\r\nDolore incididunt adipisicing velit et cillum. Quis labore cupidatat elit incididunt voluptate adipisicing proident pariatur esse dolor exercitation. Aliquip non duis ullamco qui proident voluptate nostrud minim magna cillum consectetur cillum officia. Ex mollit anim et laboris sunt ea ullamco. Duis ullamco magna magna minim eiusmod laboris enim ea nulla excepteur excepteur do proident. Sunt incididunt ad in in sunt sit fugiat non duis tempor.\r\nReprehenderit excepteur eu cupidatat laboris id. Aliqua fugiat elit exercitation ex et consequat in esse ut dolore proident magna excepteur. Laboris sunt consectetur eiusmod enim consequat culpa laborum. Proident amet quis et culpa.\r\n",
+      "backstory": "Eiusmod proident eiusmod est proident commodo. Nulla incididunt ex magna nisi deserunt reprehenderit. Voluptate sunt occaecat aute nostrud enim quis nostrud.\r\nAnim aliquip enim quis proident minim consectetur in quis exercitation aliquip aliquip exercitation. Deserunt fugiat consectetur exercitation mollit est magna fugiat aute laboris ea enim non anim. Minim non ullamco ullamco non id reprehenderit aute esse incididunt. Aliqua veniam sint incididunt labore amet ex ex sunt cillum elit velit ullamco elit cillum. Non occaecat ullamco ipsum mollit elit elit est. Excepteur ipsum consectetur dolor minim velit. Velit culpa minim laborum cillum proident officia duis id veniam proident eu duis excepteur ullamco.\r\nNostrud esse ad eiusmod mollit occaecat quis ad fugiat proident deserunt ad quis enim. Duis aute aliquip nisi minim enim reprehenderit id esse officia sint exercitation do Lorem. Pariatur exercitation exercitation occaecat minim mollit ex sint ipsum velit irure qui eiusmod consequat magna. Labore quis esse est minim reprehenderit Lorem enim officia consectetur velit.\r\n",
       "questlines": [
-        "Bard's College",
         "Dragonborn",
-        "Dragonborn"
+        "Bard's College",
+        "Dark Brotherhood"
       ],
-      "roleplay": "Id ut cillum nostrud fugiat eiusmod duis et dolor mollit. Dolore consequat laborum deserunt nulla ullamco consectetur non anim deserunt quis ex cillum. Amet ad ut quis aliquip ex ea exercitation occaecat commodo ea ea sint voluptate Lorem. Ullamco deserunt irure occaecat velit nisi pariatur deserunt deserunt.\r\nDolor anim pariatur ea Lorem do. Velit adipisicing ea ad consectetur culpa tempor ut nulla excepteur voluptate pariatur ullamco ex. Duis officia dolore aliqua veniam Lorem magna dolor ad magna reprehenderit fugiat labore.\r\n"
+      "roleplay": "Consequat incididunt adipisicing labore voluptate. Commodo est deserunt Lorem id amet eu ad consequat reprehenderit nostrud. Qui enim occaecat dolore deserunt deserunt veniam. Cillum et est consequat laboris est aliquip. Laborum excepteur laborum est duis fugiat eiusmod enim deserunt nisi mollit ut cillum. Reprehenderit veniam tempor consequat sunt laborum culpa.\r\nPariatur ut mollit ipsum est incididunt dolore do ea adipisicing consectetur amet irure cillum nostrud. Officia dolor quis officia adipisicing est consectetur ex aliqua ad velit sint tempor exercitation. Do commodo elit labore eu cupidatat ea eiusmod. Veniam nisi amet irure exercitation occaecat. Est cupidatat id tempor sunt in. Occaecat ullamco laborum sint deserunt pariatur mollit nisi magna cupidatat nisi.\r\n"
     },
     "playstyle": {
       "skills": [
         "Illusion",
-        "Conjuration"
+        "Block"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
-          "Iron Axe",
-          "Steel Sword"
+          "Blade of Woe",
+          "Dawnbreaker"
         ],
         "armor": [
-          "Iron Helmet",
-          "Iron Armor Set"
+          "Steel Armor Set",
+          "Blade's Armor Set"
         ]
       },
       "spells": [
+        "Muffle",
         "Invisibility",
-        "Incinerate",
-        "Incinerate",
-        "Lightning Bolt"
+        "Lightning Bolt",
+        "Incinerate"
       ],
       "shouts": [
-        "Fire Breath",
-        "Fire Breath",
-        "Unrelenting Force"
+        "Ride Dragon",
+        "Ride Dragon",
+        "Ride Dragon"
       ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Mage Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 20,
-    "name": "Welch",
-    "author": "Herring",
+    "id": 12,
+    "name": "Keller Gamble",
+    "author": "Ann",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Laboris laborum pariatur dolore irure velit commodo pariatur cupidatat est enim. Ad adipisicing commodo est consectetur nisi aliquip elit irure minim proident anim in consectetur. Consectetur et aute veniam dolore dolore commodo aliqua proident.",
-    "archetypes": "Warrior",
-    "race": "High Elf",
-    "sex": "Female",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Adipisicing Lorem exercitation adipisicing consectetur sint eiusmod est velit ipsum laboris ipsum sit. Ullamco reprehenderit nostrud aliquip aliquip deserunt in. Est elit reprehenderit dolor incididunt nulla excepteur ad. Minim tempor laborum dolor do sit ut cillum Lorem et eiusmod.\r\n",
+    "archetypes": "Bard",
+    "race": "Argonian",
+    "sex": "Any",
     "story": {
-      "backstory": "Proident occaecat cillum deserunt elit. Ea eiusmod eu amet excepteur cillum in labore mollit eiusmod qui dolor consectetur anim ad. Officia nostrud minim aliqua occaecat ullamco labore mollit consequat tempor cillum aliquip ex labore ullamco.\r\nUt proident ut duis elit. Pariatur enim velit qui dolor ipsum sunt sint. Velit laboris culpa adipisicing incididunt incididunt sit culpa. Proident exercitation eu laborum fugiat Lorem enim eu nisi eu dolore eiusmod quis. Magna sit cupidatat ad tempor dolore laboris cillum voluptate.\r\nIrure sunt duis occaecat enim incididunt aliqua. Duis aliquip et magna aute adipisicing aliquip sint pariatur aliqua aute deserunt non in ullamco. Labore nisi labore irure reprehenderit. Aliquip tempor ipsum anim anim do in. Cupidatat consequat enim sit nisi.\r\n",
+      "backstory": "Cillum officia eiusmod Lorem est veniam incididunt culpa. Eu cillum culpa cillum ullamco duis aute aliquip. Ex aute laboris sunt id aliquip ex non consectetur anim dolor.\r\nAliquip nisi laboris dolore magna Lorem irure tempor consequat duis. Qui in commodo duis tempor laboris. Quis dolore dolor duis laborum ipsum adipisicing incididunt nisi do laboris enim. Minim laboris sunt ex pariatur ut dolor non occaecat exercitation ipsum anim. Nostrud do proident quis ad aute reprehenderit est duis adipisicing proident Lorem culpa incididunt commodo. Voluptate officia quis elit amet eu labore ut ullamco exercitation. Amet elit do nostrud tempor.\r\nLabore esse nulla dolore cillum aliqua. Qui ea consectetur officia tempor voluptate sunt. Id deserunt magna duis in aliquip exercitation non ullamco aliquip. Cupidatat reprehenderit Lorem occaecat aliquip consectetur aliqua elit qui elit amet. Velit qui excepteur consectetur sint consequat ullamco ipsum aliquip reprehenderit occaecat ad. Do nisi in deserunt occaecat non aute in labore dolore proident aliqua dolore. Commodo occaecat dolore sint labore tempor dolore cillum duis esse.\r\n",
       "questlines": [
         "College of Winterhold",
-        "Dark Brotherhood",
-        "College of Winterhold"
+        "Thieve's Guild",
+        "Thieve's Guild"
       ],
-      "roleplay": "Et aliquip eiusmod aute culpa. Veniam esse laboris consequat aute ut. Dolor eiusmod irure adipisicing duis magna. Ullamco reprehenderit minim qui nulla irure esse non dolore qui non id.\r\nEnim eu fugiat adipisicing reprehenderit quis. Et velit qui aliqua ut. Lorem exercitation sunt excepteur sit Lorem voluptate do sint ex. Sint mollit adipisicing ullamco tempor veniam. Proident ea culpa ut nisi est tempor sit enim labore Lorem velit laboris veniam do. Labore veniam amet ipsum commodo cillum aute cupidatat exercitation amet anim laboris occaecat.\r\n"
+      "roleplay": "Ea aute irure laboris proident cupidatat dolore proident anim labore. Laboris id veniam cillum exercitation est. Officia pariatur minim fugiat nostrud. Consequat sint incididunt laboris irure. Lorem fugiat in enim laboris sunt do amet commodo amet est culpa esse.\r\nProident do incididunt excepteur velit est in veniam pariatur. Laborum culpa consectetur est eu sunt duis duis nostrud. Ex consectetur nisi deserunt commodo. Sint eu minim deserunt labore cillum.\r\n"
     },
     "playstyle": {
       "skills": [
-        "Conjuration",
-        "Conjuration"
+        "Restoration",
+        "One-Handed"
       ],
       "perks": [],
       "equipment": {
         "weapons": [
           "Dawnbreaker",
-          "Steel Sword"
+          "Blade of Woe"
         ],
         "armor": [
-          "Blade's Armor Set",
-          "Blade's Armor Set"
+          "Iron Armor Set",
+          "Steel Armor Set"
+        ]
+      },
+      "spells": [
+        "Ice Spike",
+        "Ice Spike",
+        "Muffle",
+        "Ice Spike"
+      ],
+      "shouts": [
+        "Drain Vitality",
+        "Drain Vitality",
+        "Drain Vitality"
+      ],
+      "standingStone": "The Lady Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Howard Griffin",
+    "author": "Ella",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Magna proident dolore sunt commodo elit nisi voluptate aliqua. Enim qui est veniam ea cupidatat excepteur. Excepteur ex Lorem consequat aute labore velit in aliqua nisi sit nulla anim adipisicing. Excepteur proident laborum ullamco deserunt duis irure esse eu exercitation exercitation. Nostrud esse magna culpa pariatur quis est. Dolore cupidatat commodo velit culpa et minim excepteur consequat velit tempor esse ea nulla.\r\n",
+    "archetypes": "Assassin",
+    "race": "Redguard",
+    "sex": "Male",
+    "story": {
+      "backstory": "Dolor et velit labore nostrud exercitation ipsum. Duis proident qui do laborum laboris cupidatat anim et veniam anim nostrud cupidatat. Aliquip aliquip officia non sint nostrud. Tempor enim sint sint aliqua irure duis. Adipisicing cupidatat commodo velit sunt minim do id sit sint enim commodo. Ut commodo nostrud laboris tempor laborum deserunt irure commodo.\r\nConsequat aliquip veniam in tempor adipisicing incididunt nostrud ad incididunt. Ad proident cupidatat commodo cupidatat aliquip. Voluptate ipsum enim anim aliqua quis elit commodo sunt. Occaecat mollit voluptate elit do consectetur ad. Fugiat ad sint adipisicing adipisicing fugiat magna ex. Sit est ea laborum mollit veniam tempor. Consequat elit adipisicing dolore ad eu qui non deserunt.\r\nFugiat eiusmod aliqua proident ex cupidatat Lorem occaecat nostrud elit nulla fugiat minim aliqua. In nostrud esse nisi esse pariatur ea tempor tempor labore et culpa irure tempor. Commodo velit magna veniam nostrud.\r\n",
+      "questlines": [
+        "Bard's College",
+        "Dragonborn",
+        "Main"
+      ],
+      "roleplay": "Ullamco tempor laboris incididunt ex et et laboris qui eiusmod. Consequat velit culpa voluptate reprehenderit. Culpa deserunt sint pariatur esse magna aute eiusmod. Aliqua proident laborum esse amet laborum minim sit nostrud fugiat in. Amet laborum non culpa consectetur ut minim est voluptate duis anim anim irure. Irure incididunt cupidatat veniam Lorem aliqua pariatur sint. Ad est irure elit labore dolore labore consectetur irure cillum.\r\nExcepteur qui veniam duis reprehenderit labore commodo nostrud nulla. Duis amet eiusmod aute fugiat deserunt cillum id mollit aute id aute laboris incididunt elit. Officia mollit irure commodo non culpa non sunt sunt aliqua pariatur.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Conjuration",
+        "Two-Handed"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Chillrend",
+          "Daedric Warhammer"
+        ],
+        "armor": [
+          "Archmage's Robes",
+          "Daedric Armor Set"
+        ]
+      },
+      "spells": [
+        "Ice Spike",
+        "Ice Spike",
+        "Ice Spike",
+        "Bound Sword"
+      ],
+      "shouts": [
+        "Dragon Aspect",
+        "Drain Vitality",
+        "Dragon Aspect"
+      ],
+      "standingStone": "The Lady Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Rachelle Craft",
+    "author": "Corine",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Qui nisi consectetur eiusmod veniam ullamco quis ad eiusmod reprehenderit aute sunt eu. Enim sunt tempor proident incididunt non et magna est cillum qui est enim sunt adipisicing. Amet voluptate et ea enim ad voluptate consectetur minim quis do pariatur tempor. Adipisicing ut aute id labore sunt proident do. Incididunt laborum cillum eu eu id culpa consequat quis nulla ullamco amet exercitation laborum. Sint pariatur proident ea officia duis adipisicing qui. Fugiat non qui mollit ea consectetur labore est culpa et fugiat nostrud.\r\n",
+    "archetypes": "Archer",
+    "race": "Argonian",
+    "sex": "Female",
+    "story": {
+      "backstory": "Eiusmod proident eu reprehenderit fugiat proident veniam nulla laborum veniam irure id. Dolor pariatur commodo occaecat proident officia irure eiusmod voluptate ullamco est laborum. Anim ullamco sit aliqua ad officia laboris eu. In nostrud nostrud eiusmod nostrud ut ex irure est quis amet ut irure. Adipisicing duis tempor culpa qui nostrud minim cillum.\r\nSint esse occaecat nisi et sunt dolore ut occaecat reprehenderit ad. Labore est laboris aliquip cillum. Sit irure veniam sunt occaecat officia cupidatat. Mollit nostrud voluptate dolor ex esse. Aliqua commodo adipisicing eu laborum culpa tempor minim duis mollit. Esse in aliquip eiusmod exercitation officia culpa consequat exercitation et labore aliqua ullamco.\r\nCulpa proident non ut quis irure quis irure eiusmod labore nisi excepteur. Et labore ut enim officia sit. Eiusmod amet anim culpa commodo labore enim cillum aute ullamco minim. Nulla quis ex reprehenderit Lorem.\r\n",
+      "questlines": [
+        "Bard's College",
+        "Thieve's Guild",
+        "Thieve's Guild"
+      ],
+      "roleplay": "Ipsum do commodo nulla dolore dolor magna. Est deserunt et sunt commodo. Ipsum enim sunt dolor cupidatat occaecat commodo dolor officia Lorem sint anim.\r\nIrure ad enim qui sunt ea cupidatat aute voluptate laboris id. Consequat ad sunt sint fugiat amet. Amet in reprehenderit ut in veniam anim aliqua deserunt duis. Ea commodo ut labore consectetur do cillum consectetur Lorem qui enim velit deserunt culpa. Duis cupidatat exercitation aute eu incididunt voluptate deserunt commodo. Aliqua veniam minim elit id nulla ad ea voluptate nostrud anim.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Destruction",
+        "Destruction"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Dawnbreaker",
+          "Blade's Sword"
+        ],
+        "armor": [
+          "Iron Helmet",
+          "Daedric Armor Set"
+        ]
+      },
+      "spells": [
+        "Muffle",
+        "Lightning Bolt",
+        "Ice Spike",
+        "Bound Sword"
+      ],
+      "shouts": [
+        "Drain Vitality",
+        "Unrelenting Force",
+        "Fear and Dismay"
+      ],
+      "standingStone": "The Lord Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Bird Barber",
+    "author": "Rosemarie",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Eiusmod excepteur minim cupidatat in aliquip occaecat elit qui. Velit laboris ut incididunt occaecat. Sint anim labore proident esse dolor nulla laboris velit in culpa nisi. Nostrud aliqua nisi in laborum consequat enim duis incididunt ea quis Lorem culpa anim. Quis et enim ex magna. Elit ea in tempor aliquip et excepteur pariatur excepteur. Magna do culpa ut sint nulla ea aute reprehenderit irure consectetur.\r\n",
+    "archetypes": "Paladin",
+    "race": "High Elf",
+    "sex": "Female",
+    "story": {
+      "backstory": "Veniam nisi nulla ex consectetur dolor laboris cillum qui. Ad exercitation anim ad dolor excepteur laborum. Ea velit labore nulla excepteur fugiat ex fugiat. Eu sit aliquip enim culpa ad cupidatat eiusmod deserunt duis. Sit cillum culpa ex elit commodo ullamco anim minim occaecat incididunt culpa eiusmod officia. Est id mollit adipisicing ipsum deserunt incididunt dolor.\r\nLaboris officia sunt cupidatat sit velit. Lorem sit adipisicing adipisicing nostrud aute sunt sint nisi nisi labore esse amet. Magna dolor Lorem ex nulla magna esse in consectetur commodo anim deserunt.\r\nEst id reprehenderit minim ea magna exercitation occaecat cillum excepteur. Voluptate proident eiusmod sint ipsum laborum. Ea esse incididunt laborum reprehenderit enim anim ex non laborum deserunt dolore esse aute. Ipsum do aute magna cupidatat. Ea culpa in ex do velit. Est elit eu deserunt in proident reprehenderit exercitation officia consequat magna amet.\r\n",
+      "questlines": [
+        "Dawnguard",
+        "College of Winterhold",
+        "Dark Brotherhood"
+      ],
+      "roleplay": "Fugiat anim fugiat nostrud duis fugiat. Consectetur commodo sint Lorem veniam Lorem pariatur duis sint culpa voluptate aute. Laboris amet commodo ut nulla officia nulla veniam minim aliqua. Anim ea minim officia incididunt consequat.\r\nAute sit deserunt commodo in qui est dolor laborum consectetur enim tempor. Consectetur sint sit sit mollit pariatur enim qui exercitation quis sunt minim id sint. Fugiat irure magna sunt do ex.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Destruction",
+        "Illusion"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Ebony Battleaxe",
+          "Blade's Sword"
+        ],
+        "armor": [
+          "Archmage's Robes",
+          "Daedric Armor Set"
         ]
       },
       "spells": [
         "Invisibility",
-        "Transmute Ore",
-        "Transmute Ore",
-        "Incinerate"
+        "Lightning Bolt",
+        "Lightning Bolt",
+        "Muffle"
       ],
       "shouts": [
-        "Fire Breath",
-        "Dragon Aspect",
-        "Ride Dragon"
+        "Ice Breath",
+        "Slow Time",
+        "Drain Vitality"
       ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Thief Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   },
   {
-    "id": 21,
-    "name": "Leach",
-    "author": "Douglas",
+    "id": 16,
+    "name": "Gamble Velasquez",
+    "author": "Phelps",
     "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Voluptate pariatur non exercitation culpa. Esse sint esse fugiat sunt qui mollit. Excepteur Lorem do cupidatat tempor ea Lorem Lorem dolore culpa id.",
-    "archetypes": "Warrior",
-    "race": "Argonian",
-    "sex": "Any",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Irure aliquip consectetur et laborum dolore voluptate reprehenderit consectetur pariatur labore sunt consequat nisi excepteur. Non id velit elit voluptate do dolor et culpa reprehenderit. In amet exercitation cillum do occaecat mollit duis occaecat magna mollit est. In aliquip ad irure reprehenderit magna tempor laborum dolore amet sunt anim ex adipisicing aliquip. Incididunt excepteur non voluptate id.\r\n",
+    "archetypes": "Assassin",
+    "race": "High Elf",
+    "sex": "Female",
     "story": {
-      "backstory": "Laborum deserunt veniam commodo labore consequat qui. Qui ullamco occaecat qui voluptate est eu sint consequat veniam. Sint quis mollit sint ex fugiat fugiat. Est excepteur anim dolor et ullamco mollit duis laborum.\r\nVelit consectetur nisi enim proident incididunt cupidatat aliquip sunt aliquip. Exercitation ex reprehenderit eu incididunt culpa magna anim mollit aliquip. Cupidatat anim et sit minim laborum fugiat ut. Duis proident fugiat officia laboris velit reprehenderit deserunt elit consectetur. Quis pariatur in ad et excepteur consectetur culpa Lorem ex in id sint.\r\nEa cillum ullamco incididunt aute ea voluptate consequat fugiat qui cillum labore. Elit veniam do et esse proident et amet. Ullamco exercitation ad aliquip culpa ex minim.\r\n",
+      "backstory": "Lorem deserunt eiusmod exercitation amet laborum mollit cillum nisi ea nulla aliquip. Exercitation fugiat veniam incididunt cupidatat duis officia consectetur aliqua reprehenderit. Elit non id ad mollit ullamco enim do sunt occaecat et aliquip labore consequat eiusmod.\r\nCulpa elit excepteur mollit pariatur dolore culpa ea. Cillum aute ut proident tempor cupidatat quis Lorem. Laboris proident laboris pariatur officia veniam occaecat veniam non ea nisi laborum ullamco esse. Elit ex reprehenderit laboris pariatur velit est labore ipsum duis culpa. Veniam consectetur consequat ad adipisicing eiusmod magna id ut aliquip qui irure qui anim sint. Mollit magna duis Lorem voluptate adipisicing exercitation. Pariatur adipisicing in ad do amet adipisicing culpa exercitation cupidatat incididunt aute eu ipsum.\r\nEu fugiat fugiat commodo dolor elit aliquip ipsum dolore occaecat qui dolore commodo. Ullamco esse aliquip do duis magna. Laborum ea velit nulla Lorem dolor proident. Ullamco esse magna nisi irure laborum. Incididunt reprehenderit aliquip in sunt mollit et dolor voluptate officia. Ex eiusmod minim id id tempor esse ex aliqua. Magna anim non ut ex ipsum qui eiusmod tempor qui consectetur fugiat cupidatat labore.\r\n",
       "questlines": [
-        "Bard's College",
+        "Dark Brotherhood",
+        "Dragonborn",
+        "Main"
+      ],
+      "roleplay": "Mollit ea aute consequat veniam voluptate in. Labore veniam nostrud do voluptate sit nulla cupidatat pariatur voluptate cupidatat ad do. Sit aliquip consequat laboris esse veniam id velit amet mollit nisi. Ut do excepteur aliquip cupidatat minim in veniam. Velit velit aliqua dolor veniam irure veniam nostrud esse enim pariatur occaecat.\r\nNostrud exercitation laboris non culpa laboris nulla incididunt proident sunt ullamco. Ad consequat dolore fugiat deserunt aliqua sit reprehenderit. Velit enim elit nulla cillum enim commodo enim. Ut consequat consectetur aute consectetur qui et. Voluptate voluptate excepteur minim minim fugiat cillum pariatur consequat duis mollit officia et.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Conjuration",
+        "Restoration"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Daedric Warhammer",
+          "Blade's Sword"
+        ],
+        "armor": [
+          "Iron Helmet",
+          "Daedric Armor Set"
+        ]
+      },
+      "spells": [
+        "Ice Spike",
+        "Incinerate",
+        "Bound Sword",
+        "Ice Spike"
+      ],
+      "shouts": [
+        "Dragon Aspect",
+        "Ride Dragon",
+        "Ride Dragon"
+      ],
+      "standingStone": "The Thief Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Warner Rios",
+    "author": "Hyde",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Est laboris anim deserunt magna. Deserunt aute laboris reprehenderit irure. Id pariatur fugiat consequat ullamco nulla dolor eu excepteur veniam. Voluptate ex cillum adipisicing tempor excepteur ad do sunt ex dolore ullamco. Excepteur enim laborum voluptate amet proident id minim voluptate dolor excepteur aliqua. Eiusmod cupidatat ut cillum enim cillum sit nostrud non et reprehenderit ipsum dolor enim.\r\n",
+    "archetypes": "Assassin",
+    "race": "Argonian",
+    "sex": "Female",
+    "story": {
+      "backstory": "Consectetur fugiat aliqua ullamco quis aute ex. Enim reprehenderit laboris deserunt non consectetur non nulla in ex adipisicing ea ut. Sint nulla cupidatat aliquip officia mollit ad nulla nulla anim exercitation ex incididunt sunt. Nulla exercitation culpa duis magna mollit consequat commodo occaecat pariatur. Dolor sunt ullamco irure sunt consectetur laborum amet cillum laborum amet sint Lorem.\r\nDeserunt ea adipisicing nisi qui veniam esse adipisicing et non fugiat sit elit fugiat proident. Deserunt in aute sit reprehenderit consequat reprehenderit nostrud excepteur ipsum incididunt cillum. Deserunt Lorem veniam deserunt cupidatat duis excepteur qui elit eu incididunt nisi ipsum. Quis do sunt ea velit ex nulla aute enim.\r\nExercitation reprehenderit in ex quis adipisicing deserunt elit id consectetur sit anim id mollit ullamco. Id eu magna ea nulla sint occaecat incididunt ullamco ad anim. Tempor cupidatat culpa aute nulla proident officia in quis eiusmod. Consequat velit adipisicing ad velit magna nostrud Lorem voluptate fugiat. Laboris voluptate ipsum in non. Excepteur eiusmod pariatur cupidatat dolore commodo excepteur aute duis deserunt elit ea dolore. Id id laborum aute veniam id do commodo qui ullamco do proident qui.\r\n",
+      "questlines": [
         "College of Winterhold",
+        "Thieve's Guild",
+        "College of Winterhold"
+      ],
+      "roleplay": "Ea velit laborum nisi proident in dolore do amet. Dolor sint sit sunt ex enim excepteur nulla ex ipsum duis. Quis ad irure cillum minim exercitation proident esse et consectetur enim occaecat ullamco.\r\nMollit dolore anim id non laborum id voluptate adipisicing irure velit nulla. Officia anim consectetur elit ex id elit ea et ullamco ex in ad. Minim in reprehenderit qui voluptate sint nostrud est qui ut.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Two-Handed",
+        "Destruction"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Chillrend",
+          "Steel Sword"
+        ],
+        "armor": [
+          "Ebony Armor Set",
+          "Blade's Armor Set"
+        ]
+      },
+      "spells": [
+        "Fireball",
+        "Bound Sword",
+        "Transmute Ore",
+        "Fireball"
+      ],
+      "shouts": [
+        "Unrelenting Force",
+        "Fear and Dismay",
+        "Dragon Aspect"
+      ],
+      "standingStone": "The Mage Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Arlene Mcconnell",
+    "author": "Isabel",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Exercitation aliqua laboris eu enim eu eiusmod quis quis Lorem incididunt elit. Elit cillum nostrud eiusmod anim sint voluptate excepteur. Et qui nisi cupidatat exercitation tempor aliqua elit.\r\n",
+    "archetypes": "Warrior",
+    "race": "High Elf",
+    "sex": "Female",
+    "story": {
+      "backstory": "Magna eiusmod consectetur Lorem ullamco ipsum ut esse velit irure nulla commodo. Aliqua adipisicing elit excepteur aliquip fugiat sint aliquip exercitation dolor et elit id. Exercitation aliquip est in sit ex tempor ea occaecat anim. Pariatur officia cillum id nostrud sint qui sunt cupidatat et dolore. Dolor ipsum laboris occaecat eu ut magna nisi velit ullamco in duis laboris.\r\nDolor magna excepteur deserunt dolor officia fugiat non excepteur fugiat deserunt aute mollit aliqua. Id irure anim laborum incididunt elit Lorem do in Lorem id dolor Lorem voluptate labore. Anim officia officia duis occaecat ipsum. Lorem eu sit nulla tempor ea reprehenderit incididunt ipsum amet. Officia exercitation tempor enim laboris.\r\nQuis et labore nulla Lorem enim labore ex aliquip velit enim culpa excepteur sit. Ut ea qui aliquip voluptate ipsum labore reprehenderit culpa. Aute cillum anim quis cillum est commodo eu mollit non. Laborum ut sit exercitation qui ut qui amet enim aliquip. Sit aute aute cupidatat culpa ad aliqua fugiat dolor laborum adipisicing sit laboris. Id exercitation officia non deserunt.\r\n",
+      "questlines": [
+        "Dawnguard",
+        "College of Winterhold",
+        "College of Winterhold"
+      ],
+      "roleplay": "Ut ipsum aute proident magna nisi reprehenderit deserunt. Velit cupidatat enim consequat nulla tempor aliqua excepteur consequat sunt. Nostrud eiusmod velit nulla anim voluptate sit consequat sunt nisi ullamco.\r\nCulpa deserunt culpa exercitation officia velit tempor labore incididunt cupidatat incididunt. Lorem reprehenderit consectetur elit qui pariatur excepteur est occaecat velit sunt ut dolor sit. Voluptate quis id sit id esse nostrud.\r\n"
+    },
+    "playstyle": {
+      "skills": [
+        "Destruction",
+        "Restoration"
+      ],
+      "perks": [],
+      "equipment": {
+        "weapons": [
+          "Chillrend",
+          "Iron Axe"
+        ],
+        "armor": [
+          "Archmage's Robes",
+          "Blade's Armor Set"
+        ]
+      },
+      "spells": [
+        "Lightning Bolt",
+        "Transmute Ore",
+        "Lightning Bolt",
+        "Transmute Ore"
+      ],
+      "shouts": [
+        "Dragon Aspect",
+        "Slow Time",
+        "Unrelenting Force"
+      ],
+      "standingStone": "The Lord Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Cruz Tyler",
+    "author": "Leah",
+    "game": "skyrim",
+    "imageUrl": "http://placehold.it/300x100",
+    "summary": "Amet consectetur proident adipisicing ipsum do. Aliqua aliqua quis reprehenderit mollit labore. Commodo reprehenderit cillum quis nostrud sint aute cupidatat.\r\n",
+    "archetypes": "Thief",
+    "race": "Redguard",
+    "sex": "Female",
+    "story": {
+      "backstory": "Velit voluptate officia aliqua exercitation velit cillum magna nulla enim laboris anim. Excepteur ea eiusmod dolor quis aliquip. Occaecat sunt incididunt nostrud culpa sit cillum culpa nulla. Eu occaecat labore mollit consectetur tempor nisi nisi cillum velit velit. Pariatur do veniam tempor in laboris duis fugiat ad elit mollit tempor Lorem. Quis ea irure sunt dolore laborum qui dolor nulla. Est cillum excepteur fugiat elit.\r\nUt qui esse magna sit aute. Aliquip anim est deserunt tempor eu ea sunt anim aliqua aliqua. Non eiusmod eiusmod consequat ut et minim eu in est nostrud mollit magna incididunt pariatur. Id veniam quis est culpa occaecat est tempor.\r\nDo eu adipisicing labore excepteur magna quis ullamco enim. Irure dolore commodo anim dolor exercitation cillum voluptate adipisicing tempor. Commodo cillum laboris esse sunt velit.\r\n",
+      "questlines": [
+        "Dark Brotherhood",
+        "Dragonborn",
         "Dawnguard"
       ],
-      "roleplay": "Voluptate ipsum duis officia nostrud eiusmod. Veniam cillum aliquip enim officia adipisicing consectetur do aute proident. Sunt adipisicing laboris pariatur qui Lorem laborum cillum eu reprehenderit ex. Proident cillum non proident nulla sit laboris voluptate. Id eiusmod amet dolore in. Ad magna id irure tempor cillum dolore laboris.\r\nElit ut ipsum minim ipsum dolor ut anim. Qui velit velit nostrud adipisicing id. Est deserunt anim pariatur in aliqua amet anim dolor sit ipsum deserunt ad ullamco nisi. Laborum proident cillum occaecat exercitation eu enim magna do. Cupidatat reprehenderit nostrud mollit voluptate non. Eiusmod ex culpa consequat et. Officia esse nostrud officia quis voluptate labore cillum dolor consequat est.\r\n"
+      "roleplay": "Minim qui eiusmod voluptate voluptate minim voluptate veniam qui. Enim ea elit eiusmod ex sint aliqua adipisicing Lorem fugiat. In esse exercitation mollit quis duis voluptate duis. Proident consectetur ipsum fugiat Lorem ex occaecat reprehenderit nulla id. Velit tempor dolor elit enim do.\r\nConsectetur magna ex est labore nostrud ut ad minim magna enim duis. Pariatur irure minim eiusmod mollit quis pariatur magna anim consectetur nostrud veniam minim magna culpa. Commodo labore dolore consequat amet magna irure in sunt in. Do magna ex cillum magna. Culpa commodo culpa ad eu culpa labore cillum elit sint nulla nisi enim ex. Esse sit eu minim laborum nisi cupidatat ut dolore nisi. Labore nostrud elit dolore ad sint est est ullamco incididunt id proident duis occaecat.\r\n"
     },
     "playstyle": {
       "skills": [
@@ -1349,229 +1225,42 @@ export const characters = [
       "perks": [],
       "equipment": {
         "weapons": [
-          "Iron Axe",
-          "Steel Sword"
+          "Chillrend",
+          "Daedric Warhammer"
         ],
         "armor": [
-          "Steel Armor Set",
+          "Ebony Armor Set",
           "Ebony Mail"
         ]
       },
       "spells": [
         "Lightning Bolt",
-        "Lightning Bolt",
-        "Muffle",
-        "Transmute Ore"
-      ],
-      "shouts": [
-        "Ice Breath",
-        "Fear and Dismay",
-        "Ice Breath"
-      ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "name": "Adkins",
-    "author": "Muriel",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Tempor et adipisicing eu labore ex ex proident. Labore enim anim nostrud incididunt mollit in in cupidatat reprehenderit officia excepteur sunt. Laborum dolore pariatur anim irure laborum.",
-    "archetypes": "Warrior",
-    "race": "Argonian",
-    "sex": "Male",
-    "story": {
-      "backstory": "Reprehenderit duis ullamco dolor ex cillum esse aliquip irure voluptate nostrud proident est. Adipisicing mollit consectetur aliqua duis ad incididunt aliquip sit sit anim laboris. Veniam non aliqua eu incididunt sit nulla do commodo et ex.\r\nOccaecat ipsum esse ea in labore exercitation tempor est sit esse enim ipsum adipisicing officia. Proident enim eu nisi eu anim excepteur ullamco quis. Culpa ut ad consectetur deserunt eiusmod. Aliqua proident magna irure aliqua velit. Aute commodo non culpa veniam sunt sit ex cupidatat et enim. Commodo ex ex eiusmod mollit mollit ut aute ipsum et laboris magna enim commodo laboris. Quis proident amet adipisicing officia esse commodo esse cupidatat reprehenderit nostrud aliqua.\r\nDeserunt non do consectetur consectetur labore excepteur irure velit duis. Elit proident sit in laboris. Nulla nulla excepteur veniam ullamco occaecat dolor aliqua anim in id do deserunt mollit. Dolore voluptate amet deserunt consequat consectetur et eiusmod sint proident pariatur. Cillum id ut sunt enim adipisicing nulla dolore ex non consequat excepteur. Cillum elit cillum ex anim esse quis sunt ullamco cillum consectetur.\r\n",
-      "questlines": [
-        "Dark Brotherhood",
-        "Bard's College",
-        "Dark Brotherhood"
-      ],
-      "roleplay": "Voluptate aliquip nostrud nisi et cillum dolor nulla ex. Adipisicing magna nisi et ullamco minim. Cupidatat adipisicing labore cupidatat esse in non.\r\nIrure proident do est minim. Aliquip in exercitation nisi laborum. Tempor mollit elit nostrud culpa. Ipsum quis ex cupidatat sit. Deserunt anim officia culpa aute laborum magna culpa esse occaecat magna aliquip proident exercitation ex. Et consequat aliqua minim deserunt ut exercitation irure aliquip sunt culpa non ipsum incididunt.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Block",
-        "Conjuration"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Steel Sword",
-          "Dawnbreaker"
-        ],
-        "armor": [
-          "Ebony Armor Set",
-          "Archmage's Robes"
-        ]
-      },
-      "spells": [
-        "Lightning Bolt",
-        "Bound Sword",
         "Incinerate",
-        "Fireball"
-      ],
-      "shouts": [
-        "Fire Breath",
-        "Ride Dragon",
-        "Ice Breath"
-      ],
-      "standingStone": "The Lord Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "name": "Barr",
-    "author": "Helene",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Est id sit voluptate minim aute sit ut dolor eu officia. Duis laboris excepteur laboris deserunt. Reprehenderit consequat consectetur laboris reprehenderit elit minim sit sint incididunt reprehenderit minim reprehenderit.",
-    "archetypes": "Thief",
-    "race": "Nord",
-    "sex": "Female",
-    "story": {
-      "backstory": "Consequat quis dolor consequat velit velit fugiat pariatur. In nostrud et fugiat ut magna laboris. Aliqua esse enim elit commodo consequat exercitation enim nisi est irure non mollit magna. Irure non dolore dolor ea.\r\nAute sit nulla eiusmod id. Consectetur magna sunt consequat est dolor pariatur cupidatat esse est excepteur magna occaecat dolor aliqua. Aliquip laboris tempor aliqua laborum consectetur consequat mollit officia reprehenderit mollit irure excepteur. Et aute ut culpa labore. Commodo occaecat id aliquip velit laboris dolor enim cillum ad mollit dolor. Reprehenderit sint ea tempor labore sit esse ad cupidatat incididunt quis enim Lorem.\r\nOccaecat aliqua nostrud exercitation nisi elit irure deserunt aute. Qui consectetur magna consequat ipsum et aute do consectetur aliqua est eu duis. Tempor excepteur dolor aute laborum qui cillum do nulla sunt. Commodo eu voluptate deserunt aliquip. Commodo consectetur eu dolore dolor labore dolore. Enim sit laboris veniam sunt incididunt ut sunt incididunt proident ut.\r\n",
-      "questlines": [
-        "Bard's College",
-        "Thieve's Guild",
-        "Dragonborn"
-      ],
-      "roleplay": "Ipsum commodo ut Lorem non elit eiusmod sunt anim. Elit aliqua ipsum amet anim eiusmod cillum sint id. Eu consequat magna eiusmod magna exercitation tempor consequat ullamco sunt veniam. Nostrud proident minim velit pariatur eu. Dolor consectetur in dolore eu ea.\r\nEa veniam excepteur enim veniam qui aute eu amet magna consectetur et consequat magna. Do officia est eu ullamco quis consectetur tempor officia magna non quis voluptate aliquip. Ex consequat excepteur fugiat cupidatat. Id eu mollit aliquip dolore sint. Nulla consectetur commodo incididunt officia cupidatat incididunt cillum culpa. Pariatur sint in in ex dolor Lorem.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Conjuration",
-        "Conjuration"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Ebony Battleaxe",
-          "Ebony Battleaxe"
-        ],
-        "armor": [
-          "Steel Armor Set",
-          "Archmage's Robes"
-        ]
-      },
-      "spells": [
         "Incinerate",
-        "Bound Sword",
-        "Bound Sword",
         "Lightning Bolt"
       ],
       "shouts": [
-        "Fear and Dismay",
-        "Unrelenting Force",
-        "Fear and Dismay"
+        "Ride Dragon",
+        "Drain Vitality",
+        "Dragon Aspect"
       ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "name": "Barber",
-    "author": "Lydia",
-    "game": "skyrim",
-    "imageUrl": "http://placehold.it/300x170",
-    "summary": "Nulla ipsum irure esse fugiat duis ipsum tempor Lorem aliqua duis excepteur. Consequat anim reprehenderit id magna adipisicing laboris anim aliquip incididunt id ad laborum dolor voluptate. Velit velit sint est amet.",
-    "archetypes": "Assassin",
-    "race": "Redguard",
-    "sex": "Any",
-    "story": {
-      "backstory": "Ex incididunt laboris labore sit eiusmod deserunt nisi ipsum aute commodo. Deserunt do ullamco incididunt adipisicing. Voluptate duis do consectetur ipsum. Eu in quis eu aute. Ipsum id exercitation et quis officia et do.\r\nOfficia mollit exercitation minim cillum esse commodo fugiat reprehenderit velit laborum cupidatat cillum voluptate. Nostrud ipsum officia nisi adipisicing id. Excepteur amet Lorem eu voluptate sit pariatur excepteur voluptate cillum.\r\nSint in pariatur officia officia aute proident consectetur commodo deserunt quis nulla nisi. Nisi labore proident enim ipsum magna consequat cillum. Culpa duis ipsum ullamco sint consequat labore mollit labore et in.\r\n",
-      "questlines": [
-        "Main",
-        "Thieve's Guild",
-        "Bard's College"
-      ],
-      "roleplay": "Eu deserunt incididunt irure dolor tempor pariatur magna excepteur proident tempor deserunt Lorem. Consectetur commodo ea non duis incididunt Lorem qui. Id id sint do deserunt nostrud incididunt dolore ex duis ad veniam sit nulla. Ex Lorem consequat ut do enim ex. Ullamco duis non magna laboris culpa enim laborum. Mollit id elit cillum eu laboris ipsum ea ea cupidatat.\r\nSint officia veniam mollit fugiat ad. Mollit nisi do anim irure ex irure laborum consequat. Cillum labore velit adipisicing excepteur dolore est ut qui magna. Consectetur eiusmod incididunt in nostrud adipisicing ex nisi Lorem excepteur fugiat labore.\r\n"
-    },
-    "playstyle": {
-      "skills": [
-        "Block",
-        "One-Handed"
-      ],
-      "perks": [],
-      "equipment": {
-        "weapons": [
-          "Chillrend",
-          "Iron Axe"
-        ],
-        "armor": [
-          "Iron Armor Set",
-          "Archmage's Robes"
-        ]
-      },
-      "spells": [
-        "Incinerate",
-        "Bound Sword",
-        "Bound Sword",
-        "Invisibility"
-      ],
-      "shouts": [
-        "Fear and Dismay",
-        "Fire Breath",
-        "Slow Time"
-      ],
-      "standingStone": "The Lady Stone"
-    },
-    "mods": [
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      },
-      {
-        "name": "Ordinator",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
-      }
-    ]
+      "standingStone": "The Mage Stone",
+      "mods": [
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        },
+        {
+          "name": "Ordinator",
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/1137?tab=files"
+        }
+      ]
+    }
   }
 ];
+
+export const findByName = name => characters.find(character => character.name === name);
