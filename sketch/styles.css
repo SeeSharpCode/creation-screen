@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+header, main {
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    gap: 2rem;
+}
+
+main aside {
+    display: none;
+    min-width: 180px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+#skills-label {
+    display: block;
+}
+
+.filter-control {
+    margin-bottom: 1rem;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+}
+
+.card {
+    border-radius: .5rem;
+    border: 1px solid #dee2e6;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-content {
+    padding: 0 1rem;
+}
+
+.card h4 {
+    margin: .5rem 0;
+}
+
+.card h5 {
+    margin: 0;
+}
+
+@media (min-width: 700px) {
+    main aside {
+        display: block;
+    }
+
+    main section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    main section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1400px) {
+    main section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

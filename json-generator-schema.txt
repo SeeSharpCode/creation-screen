@@ -1,0 +1,75 @@
+[
+  '{{repeat(30, 30)}}',
+  {
+    id: '{{index()}}',
+    name: '{{firstName()}} {{surname()}}',
+    author: '{{firstName()}}',
+    game: 'skyrim',
+    summary: '{{lorem(1, "paragraphs")}}',
+    sex: '{{random("Male", "Female", "Any")}}',
+    race: '{{random("Argonian", "Nord", "Dark Elf", "High Elf", "Redguard")}}',
+    isModded: '{{bool()}}',
+    media: {
+      image: 'fffffffffffffff'
+    },
+    roleplay: {
+      backstory: '{{lorem(3, "paragraphs")}}',
+      questlines: [
+        '{{repeat(1, 5)}}',
+        '{{random( "Main Quest", "Join Dark Brotherhood", "Destroy Dark Brotherhood", "Thieve\'s Guild", "Bard\'s College", "College of Winterhold", "Dragonborn", "Dawnguard")}}'
+      ],
+      roleplay: '{{lorem(2, "paragraphs")}}',
+      gameplayNotes: '{{lorem(3, "paragraphs")}}'
+    },
+    perks: {},
+    equipment: {
+      weapons: {
+        'One-Handed': [
+          '{{repeat(1, 2)}}',
+          '{{random( "Iron Sword", "Steel Sword", "Ebony Sword")}}'
+        ],
+        'Two-Handed': [
+          '{{repeat(1, 2)}}',
+          '{{random( "Iron Greatsword", "Steel Greatsword", "Ebony Greatsword")}}'
+        ],
+        Ranged: [
+          '{{repeat(1, 2)}}',
+          '{{random( "Iron Bow", "Steel Bow", "Ebony Bow")}}'
+        ]
+      },
+      armor: {
+        Armor: [
+          '{{random( "Iron Armor", "Steel Armor")}}'
+        ],
+        Boots: [
+          '{{random( "Iron Boots", "Steel Boots")}}'
+        ],
+        Gauntlets: [
+          '{{random( "Iron Gauntlets", "Steel Gauntlets")}}'
+        ],
+        Helmets: [
+          '{{random( "Iron Helmet", "Steel Helmet")}}'
+        ],
+        Shields: [
+          '{{random( "Iron Shield", "Steel Shield")}}'
+        ]
+      },
+      spells: {
+        Destruction: [
+          '{{repeat(1, 4)}}',
+          '{{random( "Fireball", "Ice Spike", "Lightning Bolt", "Firebolt")}}'
+        ]
+      },
+      shouts: [
+        '{{repeat(3)}}',
+        '{{random("Unrelenting Force", "Slow Time", "Ice Breath", "Fire Breath", "Dragon Aspect", "Drain Vitality", "Ride Dragon", "Fear and Dismay")}}'
+      ],
+      powers: [
+        '{{repeat(1, 2)}}',
+        '{{random("Nightingale Force", "Nightingale Subterfuge", "Battle Cry")}}'
+      ],
+      standingStone: '{{random("The Lord Stone", "The Lady Stone", "The Thief Stone", "The Warrior Stone", "The Mage Stone")}}',
+      notes: '{{lorem(2, "paragraphs")}}'
+    }
+  }
+]
