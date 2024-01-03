@@ -11,29 +11,3 @@ export const armor: Record<string, string[]> = {
   Helmets: ['Iron Helmet', 'Steel Helmet'],
   Shields: ['Iron Shield', 'Steel Shield'],
 };
-
-export const shouts = [
-  'Unrelenting Force',
-  'Fire Breath',
-  'Ice Form',
-  'Storm Call',
-  'Dragonrend',
-  'Soul Tear',
-  'Call Dragon',
-  'Call of Valor',
-  'Clear Skies',
-  'Disarm',
-  'Dismay',
-  'Dragon Aspect',
-  'Elemental Fury',
-  'Become Ethereal',
-  'Aura Whisper',
-  'Animal Allegiance',
-  'Throw Voice',
-  'Whirlwind Sprint',
-  "Kyne's Peace",
-  'Marked for Death',
-  'Slow Time',
-];
-
-export const powers = ['Battle Cry', 'Nightingale Subterfuge', 'Nightingale Strife'];

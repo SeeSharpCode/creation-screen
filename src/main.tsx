@@ -1,4 +1,4 @@
-import { AppShell, Avatar, Button, Container, Group, MantineProvider, Stack, Text, Title, Image } from '@mantine/core';
+import { AppShell, Avatar, Button, Container, Group, MantineProvider, Stack, Text, Image } from '@mantine/core';
 import { Link, Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import CharacterDetail from './character-detail/CharacterDetail';
 import CharacterList from './character-list/CharacterList';
@@ -16,13 +16,12 @@ function AppHeader() {
     <Container size="xl">
       <Group py="xs" justify="space-between" pb="xs">
         <Group gap="sm">
-          <Image src="/logo.png" alt="Creation Screen" width="60" height="60" />
+          <Link to="/">
+            <Image src="/logo.png" alt="Creation Screen" height="80" />
+          </Link>
           <Stack gap={0} justify="center">
-            <Link style={{ textDecoration: 'none', color: 'inherit' }} to="/">
-              <Title order={2}>Creation Screen</Title>
-            </Link>
-            <Text size="sm" c="dimmed">
-              It&apos;s like match.com for stealth archers
+            <Text fs="italic" c="dimmed">
+              It&apos;s like Match.com for stealth archers!
             </Text>
           </Stack>
         </Group>
@@ -46,7 +45,7 @@ function App() {
     {
       path: '/',
       element: (
-        <AppShell header={{ height: 80 }}>
+        <AppShell header={{ height: 100 }}>
           <AppShell.Header>
             <AppHeader />
           </AppShell.Header>

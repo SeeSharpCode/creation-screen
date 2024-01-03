@@ -1,6 +1,6 @@
-import { Accordion, MultiSelect, SimpleGrid } from '@mantine/core';
+import { Accordion, MultiSelect, Select, SimpleGrid } from '@mantine/core';
 import { UseFormInput, UseFormReturnType } from '@mantine/form';
-import { armor, powers, shouts, weapons } from '../../../shared/equipment';
+import { armor, weapons } from '../../../shared/equipment';
 import { IconFlame, IconLanguage, IconShield, IconSword } from '@tabler/icons-react';
 import spells from '../../../shared/spells';
 import { ReactNode } from 'react';
@@ -11,6 +11,7 @@ export interface EquipmentFormValues {
   Spells: Record<string, string[]>;
   Shouts: string[];
   Powers: string[];
+  standingStone: string;
 }
 
 export default function EquipmentStep({ form }: { form: UseFormReturnType<EquipmentFormValues> }) {
@@ -20,10 +21,10 @@ export default function EquipmentStep({ form }: { form: UseFormReturnType<Equipm
       <CategorizedEquipmentForm title="Armor" icon={<IconShield />} data={armor} form={form} />
       <CategorizedEquipmentForm title="Spells" icon={<IconFlame />} data={spells} form={form} />
 
-      <Accordion.Item value="Shouts and Powers">
-        <Accordion.Control icon={<IconLanguage />}>Shouts and Powers</Accordion.Control>
+      <Accordion.Item value="Abilities">
+        <Accordion.Control icon={<IconLanguage />}>Abilities</Accordion.Control>
         <Accordion.Panel>
-          <SimpleGrid cols={2}>
+          <SimpleGrid cols={3}>
             <MultiSelect
               {...form.getInputProps('Shouts')}
               data={shouts}
@@ -39,6 +40,12 @@ export default function EquipmentStep({ form }: { form: UseFormReturnType<Equipm
               placeholder="Select powers"
               searchable
               nothingFoundMessage="Nothing found"
+            />
+            <Select
+              label="Standing Stone"
+              placeholder="Pick The Lord Stone. I know you will."
+              {...form.getInputProps('standingStone')}
+              data={standingStoneOptions}
             />
           </SimpleGrid>
         </Accordion.Panel>
@@ -88,6 +95,43 @@ export function createEquipmentForm(): UseFormInput<EquipmentFormValues> {
       Spells: {},
       Shouts: [],
       Powers: [],
+      standingStone: '',
     },
   };
 }
+
+const powers = ['Battle Cry', 'Nightingale Subterfuge', 'Nightingale Strife'];
+
+const standingStoneOptions = [
+  'The Lord Stone',
+  'The Lady Stone',
+  'The Atronach Stone',
+  'The Apprentice Stone',
+  'The Ritual Stone',
+  'The Lover Stone',
+  'The Shadow Stone',
+];
+
+const shouts = [
+  'Unrelenting Force',
+  'Fire Breath',
+  'Ice Form',
+  'Storm Call',
+  'Dragonrend',
+  'Soul Tear',
+  'Call Dragon',
+  'Call of Valor',
+  'Clear Skies',
+  'Disarm',
+  'Dismay',
+  'Dragon Aspect',
+  'Elemental Fury',
+  'Become Ethereal',
+  'Aura Whisper',
+  'Animal Allegiance',
+  'Throw Voice',
+  'Whirlwind Sprint',
+  "Kyne's Peace",
+  'Marked for Death',
+  'Slow Time',
+];

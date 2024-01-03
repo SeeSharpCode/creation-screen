@@ -112,6 +112,7 @@ function makeCharacter(
       spells: gameplayValues.Spells,
       shouts: gameplayValues.Shouts,
       powers: gameplayValues.Powers,
+      standingStone: gameplayValues.standingStone,
     },
   };
 }
