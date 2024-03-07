@@ -20,9 +20,7 @@ function AppHeader() {
             <Image src="/logo.png" alt="Creation Screen" height="80" />
           </Link>
           <Stack gap={0} justify="center">
-            <Text fs="italic" c="dimmed">
-              It&apos;s like Match.com for stealth archers!
-            </Text>
+            <Text c="dimmed">It&apos;s like Match.com for stealth archers!</Text>
           </Stack>
         </Group>
         <Group>
