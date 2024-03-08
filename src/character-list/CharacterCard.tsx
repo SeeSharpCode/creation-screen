@@ -7,7 +7,7 @@ export default function CharacterCard({ character }: { character: Character }) {
   return (
     <Card shadow="sm" padding="md" radius={0} style={{ display: 'flex', flexDirection: 'column' }} withBorder>
       <Card.Section>
-        <Image src="https://picsum.photos/265/150" alt="Norway" />
+        <Image src={character.media.image} alt="Norway" />
       </Card.Section>
       <Group justify="space-between" mt="xs">
         <Title order={5}>{character.name}</Title>

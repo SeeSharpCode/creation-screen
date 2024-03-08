@@ -48,7 +48,7 @@ function App() {
             <AppHeader />
           </AppShell.Header>
           <AppShell.Main>
-            <Container size="xl" mt="md">
+            <Container size="xl" mt="md" pb="lg">
               <Outlet />
             </Container>
           </AppShell.Main>

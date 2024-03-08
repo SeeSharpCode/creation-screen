@@ -3,7 +3,7 @@ const spells: Record<string, string[]> = {
   Restoration: ['Healing', 'Healing Hands', 'Turn Undead'],
   Alteration: ['Oakflesh', 'Stoneflesh', 'Ironflesh'],
   Conjuration: ['Raise Zombie', 'Raise Skeleton', 'Raise Dead'],
-  Illusion: ['Courage', 'Fury', 'Fear'],
+  Illusion: ['Courage', 'Fury', 'Fear', 'Invisibility'],
 };
 
 export default spells;

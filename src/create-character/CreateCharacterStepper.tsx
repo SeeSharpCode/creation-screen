@@ -8,6 +8,7 @@ import { Dispatch, SetStateAction, useState } from 'react';
 import { Character } from '../shared/character';
 import { IconCheck } from '@tabler/icons-react';
 import { PerkTrees, allPerks } from '../shared/perks';
+import { useNavigate } from 'react-router-dom';
 
 export default function CreateCharacterStepper({
   setCharacters,
@@ -18,6 +19,7 @@ export default function CreateCharacterStepper({
   const perksForm = useForm(createPerksForm());
   const equipmentForm = useForm(createEquipmentForm());
   const roleplayForm = useForm(createRoleplayForm());
+  const navigate = useNavigate();
 
   const [step, setStep] = useState(0);
   const nextStep = () => setStep(current => (current < 3 ? current + 1 : current));
@@ -66,6 +68,7 @@ export default function CreateCharacterStepper({
               );
               console.log('character', character);
               setCharacters((characters: Character[]) => [...characters, character]);
+              navigate(`/characters/${character.id}`);
             }
           }}
         >

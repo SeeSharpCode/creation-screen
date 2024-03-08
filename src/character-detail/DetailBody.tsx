@@ -7,7 +7,7 @@ import { IconFlame, IconLanguage } from '@tabler/icons-react';
 import { questlineIcons } from '../shared/questlines';
 
 export default function DetailBody({ character }: { character: Character }) {
-    return (
+  return (
     <Stack mt="sm">
       <Section title="Backstory">
         <Text>{character.roleplay.backstory}</Text>
@@ -56,15 +56,18 @@ const RoleplaySection = ({ roleplay }: { roleplay: Roleplay }) => (
 );
 
 const PerksSection = ({ perks }: { perks: PerkTrees }) => (
-  <SimpleGrid>
+  <SimpleGrid cols={4}>
     {Object.entries(perks).map(([skill, perkTree]) => (
       <Accordion variant="contained" key={skill}>
         <Accordion.Item value={skill}>
           <Accordion.Control>{skill}</Accordion.Control>
           <Accordion.Panel>
-            <List center>
+            <List center spacing="xs">
               {Object.entries(perkTree).map(([name, perk]) => (
-                <List.Item key={name}>{name}</List.Item>
+                <List.Item key={name} style={{ listStyleType: 'none' }}>
+                  <Text>{name}</Text>
+                  <Text c="dimmed">{perk.description}</Text>
+                </List.Item>
               ))}
             </List>
           </Accordion.Panel>
