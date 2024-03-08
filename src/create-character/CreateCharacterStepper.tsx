@@ -86,7 +86,7 @@ function makeCharacter(
   const { backstory, roleplay, questlines, gameplayNotes } = roleplayValues;
 
   return {
-    id: 0,
+    id: 30,
     name,
     author: 'Breems',
     game: 'skyrim',

@@ -60,7 +60,7 @@ function App() {
           path: 'characters/:characterId',
           element: <CharacterDetail />,
           loader: ({ params }) => {
-            const character = mockData.find(c => c.id === Number(params.characterId));
+            const character = characters.find(c => c.id === Number(params.characterId));
             return { character };
           },
         },

@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import { Character } from '../shared/character';
 
 export default function CharacterHeader({ character }: { character: Character }) {
+  console.log('imageUrl', character.media.image);
   return (
     <Grid columns={2} mt="xs">
       <Grid.Col span={1}>
-        <Image src="https://picsum.photos/1920/1080" />
+        {/* <Image src="https://picsum.photos/1920/1080" /> */}
+        <Image src={character.media.image} />
       </Grid.Col>
       <Grid.Col span={1}>
         <Group>

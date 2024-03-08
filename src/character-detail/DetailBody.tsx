@@ -7,7 +7,7 @@ import { IconFlame, IconLanguage } from '@tabler/icons-react';
 import { questlineIcons } from '../shared/questlines';
 
 export default function DetailBody({ character }: { character: Character }) {
-  return (
+    return (
     <Stack mt="sm">
       <Section title="Backstory">
         <Text>{character.roleplay.backstory}</Text>
@@ -64,7 +64,7 @@ const PerksSection = ({ perks }: { perks: PerkTrees }) => (
           <Accordion.Panel>
             <List center>
               {Object.entries(perkTree).map(([name, perk]) => (
-                <List.Item key={name}>{perk.description}</List.Item>
+                <List.Item key={name}>{name}</List.Item>
               ))}
             </List>
           </Accordion.Panel>
