@@ -9,8 +9,6 @@ import mockData from './mock-data';
 import '@mantine/core/styles.css';
 import { Character } from './shared/character';
 
-// TODO consistent function expressions/bodies throughout the app
-
 function AppHeader() {
   return (
     <Container size="xl">

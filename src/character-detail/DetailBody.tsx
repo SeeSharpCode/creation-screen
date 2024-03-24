@@ -26,15 +26,15 @@ export default function DetailBody({ character }: { character: Character }) {
   );
 }
 
-const Section = ({ title, children }: { title: string; children: ReactNode }) => (
-  <>
+function Section({ title, children }: { title: string; children: ReactNode }) {
+  return (<>
     <Divider label={<Text size="lg">{title}</Text>} />
     <Box>{children}</Box>
-  </>
-);
+  </>);
+}
 
-const RoleplaySection = ({ roleplay }: { roleplay: Roleplay }) => (
-  <Grid gutter="lg" columns={4}>
+function RoleplaySection({ roleplay }: { roleplay: Roleplay }) {
+  return (<Grid gutter="lg" columns={4}>
     <Grid.Col span={1}>
       <Card h="100%">
         <Title order={5} mb="xs">
@@ -52,86 +52,87 @@ const RoleplaySection = ({ roleplay }: { roleplay: Roleplay }) => (
     <Grid.Col span={3}>
       <Text>{roleplay.roleplay}</Text>
     </Grid.Col>
-  </Grid>
-);
+  </Grid>);
+}
 
-const PerksSection = ({ perks }: { perks: PerkTrees }) => (
-  <SimpleGrid cols={4}>
-    {Object.entries(perks).map(([skill, perkTree]) => (
-      <Accordion variant="contained" key={skill}>
-        <Accordion.Item value={skill}>
-          <Accordion.Control>{skill}</Accordion.Control>
-          <Accordion.Panel>
-            <List center spacing="xs">
-              {Object.entries(perkTree).map(([name, perk]) => (
-                <List.Item key={name} style={{ listStyleType: 'none' }}>
-                  <Text>{name}</Text>
-                  <Text c="dimmed">{perk.description}</Text>
-                </List.Item>
-              ))}
-            </List>
-          </Accordion.Panel>
-        </Accordion.Item>
-      </Accordion>
-    ))}
-  </SimpleGrid>
-);
+function PerksSection({ perks }: { perks: PerkTrees; }) {
+  return (
+    <SimpleGrid cols={4}>
+      {Object.entries(perks).map(([skill, perkTree]) => (
+        <Accordion variant="contained" key={skill}>
+          <Accordion.Item value={skill}>
+            <Accordion.Control>{skill}</Accordion.Control>
+            <Accordion.Panel>
+              <List center spacing="xs">
+                {Object.entries(perkTree).map(([name, perk]) => (
+                  <List.Item key={name} style={{ listStyleType: 'none' }}>
+                    <Text>{name}</Text>
+                    <Text c="dimmed">{perk.description}</Text>
+                  </List.Item>
+                ))}
+              </List>
+            </Accordion.Panel>
+          </Accordion.Item>
+        </Accordion>
+      ))}
+    </SimpleGrid>
+  );
+}
 
-const EquipmentSection = ({ equipment }: { equipment: Equipment }) => (
-  <SimpleGrid cols={4}>
-    <Card>
-      <Title order={5} mb="xs">
-        Weapons
-      </Title>
-      <List center>
-        {Object.entries(equipment.weapons ?? {}).map(([category, weapons]) =>
-          weapons.map(name => (
+function EquipmentSection({ equipment }: { equipment: Equipment; }) {
+  return (
+    <SimpleGrid cols={4}>
+      <Card>
+        <Title order={5} mb="xs">
+          Weapons
+        </Title>
+        <List center>
+          {Object.entries(equipment.weapons ?? {}).map(([category, weapons]) => weapons.map(name => (
             <List.Item key={name} icon={equipmentIcons[category]}>
               {name}
             </List.Item>
           ))
-        )}
-      </List>
-    </Card>
-    <Card>
-      <Title order={5} mb="xs">
-        Armor
-      </Title>
-      <List center>
-        {Object.entries(equipment.armor ?? {}).map(([category, armor]) =>
-          armor.map(name => (
+          )}
+        </List>
+      </Card>
+      <Card>
+        <Title order={5} mb="xs">
+          Armor
+        </Title>
+        <List center>
+          {Object.entries(equipment.armor ?? {}).map(([category, armor]) => armor.map(name => (
             <List.Item key={name} icon={equipmentIcons[category]}>
               {name}
             </List.Item>
           ))
-        )}
-      </List>
-    </Card>
-    <Card>
-      <Title order={5} mb="xs">
-        Spells
-      </Title>
-      <List center>
-        {Object.entries(equipment.spells ?? {}).map(([school, spells]) =>
-          spells.map(name => (
+          )}
+        </List>
+      </Card>
+      <Card>
+        <Title order={5} mb="xs">
+          Spells
+        </Title>
+        <List center>
+          {Object.entries(equipment.spells ?? {}).map(([school, spells]) => spells.map(name => (
             <List.Item key={name} icon={<IconFlame />}>
               {name}
             </List.Item>
           ))
-        )}
-      </List>
-    </Card>
-    <Card>
-      <Title order={5} mb="xs">
-        Shouts & Powers
-      </Title>
-      <List center>
-        {[...(equipment.shouts ?? []), ...(equipment.powers ?? [])].map(item => (
-          <List.Item key={item} icon={<IconLanguage />}>
-            {item}
-          </List.Item>
-        ))}
-      </List>
-    </Card>
-  </SimpleGrid>
-);
+          )}
+        </List>
+      </Card>
+      <Card>
+        <Title order={5} mb="xs">
+          Shouts & Powers
+        </Title>
+        <List center>
+          {[...(equipment.shouts ?? []), ...(equipment.powers ?? [])].map(item => (
+            <List.Item key={item} icon={<IconLanguage />}>
+              {item}
+            </List.Item>
+          ))}
+        </List>
+      </Card>
+    </SimpleGrid>
+  );
+}
