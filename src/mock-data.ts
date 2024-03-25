@@ -102,12 +102,10 @@ const mockData: Character[] = [
         'https://imgs.search.brave.com/klAbZhSrfN0Moh3QQTI6oD11lA0w5HN7GO_qRC1dIQY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnRoZWdhbWVy/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMDUv/U2t5cmltLS0tSW1w/ZXJpYWwtd2Fycmlv/ci5qcGc',
     },
     roleplay: {
-      backstory: `In the heart of Morrowind's shadowed lands, Draven Veloth was born into a life of hardship and secrecy. Raised amidst the turmoil of Vvardenfell, he inherited a natural affinity for stealth and sorcery, becoming a skilled nightblade under his father's tutelage. Tragedy struck when the eruption of the Red Mountain claimed his family, leaving Draven orphaned and seeking vengeance.
-
-        Venturing into Skyrim's tumultuous realm, Draven wove his skills into the fabric of the province's conflicts, aligning with shadows to manipulate the course of war. With a blade in one hand and dark magic in the other, he pursued justice for his fallen kin while leaving a trail of whispers and fear in his wake, a solitary figure destined to be both feared and revered in the annals of Skyrim's history.`,
-      questlines: ['Thieves Guild', 'Join Dark Brotherhood', 'College of Winterhold'],
-      roleplay: `To fully embody your Skyrim dark elf nightblade, immerse yourself in Morrowind's lore, utilizing stealth and sorcery to navigate the province's shadows while seeking vengeance for your family's loss. Explore Skyrim's factions, aligning with those that serve your character's goals and values, and engaging in ethical dilemmas that test your moral compass. Develop a unique persona with distinct quirks and relationships, continuously evolving your character as you progress through the game. Above all, embrace the immersive experience of roleplaying, allowing your imagination to guide you on epic adventures through the world of Tamriel.`,
-      gameplayNotes: `Employ a stealthy approach for covert maneuvers and surprise attacks, blending one-handed weapons with destruction magic for close-quarters combat. Maintain a versatile skillset encompassing Sneak, One-Handed, Destruction, Illusion, and Conjuration, while utilizing dual-wielding techniques and alchemy for strategic advantages. Enchant weapons and armor to bolster offensive and defensive capabilities, adapting your tactics to various combat scenarios and enemy types. Stay immersed in roleplay by aligning gameplay decisions with your character's backstory and motivations, ensuring a dynamic and engaging experience in the world of Skyrim.`,
+      backstory: `In the frigid lands of Skyrim, Bjorn Ironside was born under the sign of the Warrior, destined for greatness on the battlefield. Raised in the traditions of his Nordic ancestors, he honed his skills in combat and tactics, becoming a formidable warrior feared by his enemies and respected by his allies.`,
+      questlines: ['The Companions', 'Civil War', 'Dragonborn'],
+      roleplay: `To fully embody your Skyrim Nord warrior, immerse yourself in the lore of Skyrim's history and culture, embracing the traditions of honor, valor, and glory in battle. Engage in epic quests and battles, aligning with factions that reflect your character's values and goals, and make choices that shape the fate of the province. Develop a unique persona with distinct quirks and relationships, continuously evolving your character as you progress through the game. Above all, embrace the immersive experience of roleplaying, allowing your imagination to guide you on epic adventures through the world of Tamriel.`,
+      gameplayNotes: `Embrace a warrior's path with a focus on close-quarters combat, utilizing heavy armor, shields, and one-handed weapons to engage enemies in fierce battles. Master the art of blocking, bashing, and power attacks to gain the upper hand in combat, combining offensive and defensive tactics to overcome challenging foes. Enhance your skills in Smithing, Enchanting, and Alchemy to craft powerful weapons and armor, customizing your gear to suit your playstyle and optimize your combat effectiveness. Stay immersed in roleplay by aligning gameplay decisions with your character's backstory and motivations, ensuring a dynamic and engaging experience in the world of Skyrim.`,
     },
     perks: {
       Illusion: {
@@ -155,20 +153,18 @@ const mockData: Character[] = [
     },
     equipment: {
       weapons: {
-        'One-Handed': ['Blade of Woe'],
+        'One-Handed': ['Steel Sword'],
       },
       armor: {
-        Armor: ['Nightingale Armor'],
-        Boots: ['Nightingale Boots'],
-        Gauntlets: ['Nightingale Gauntlets'],
-        Helmets: ['Nightingale Helmet'],
+        Armor: ['Ebony Armor'],
+        Boots: ['Ebony Boots'],
+        Gauntlets: ['Ebony Gauntlets'],
+        Helmets: ['Ebony Helmet'],
       },
-      spells: {
-        Illusion: ['Fury', 'Fear', 'Invisibility'],
-      },
-      shouts: ['Aura Whisper', 'Throw Voice'],
-      powers: ['Nightingale Strife'],
-      standingStone: 'The Shadow Stone',
+      spells: {},
+      shouts: ['Unrelenting Force', 'Dragon Aspect'],
+      powers: ['Battle Cry'],
+      standingStone: 'The Warrior Stone',
     },
   },
 ];

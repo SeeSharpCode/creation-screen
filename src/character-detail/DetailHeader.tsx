@@ -1,14 +1,15 @@
-import { Badge, Button, Grid, Group, Image, Text, Title } from '@mantine/core';
+import { AspectRatio, Badge, Button, Grid, Group, Image, Text, Title } from '@mantine/core';
 import { IconBrandYoutube, IconHeart } from '@tabler/icons-react';
 import { Link } from 'react-router-dom';
 import { Character } from '../shared/character';
 
 export default function CharacterHeader({ character }: { character: Character }) {
-  console.log('imageUrl', character.media.image);
   return (
     <Grid columns={2} mt="xs">
       <Grid.Col span={1}>
-        <Image src={character.media.image} />
+        <AspectRatio ratio={1280 / 720}>
+          <Image src={character.media.image} />
+        </AspectRatio>
       </Grid.Col>
       <Grid.Col span={1}>
         <Group align="center">
