@@ -7,9 +7,11 @@ export default function CharacterCard({ character }: { character: Character }) {
   return (
     <Card shadow="sm" padding="md" radius={0} withBorder>
       <Card.Section>
-        <AspectRatio ratio={1280 / 720}>
-          <Image src={character.media.image} alt="Norway" />
-        </AspectRatio>
+        <Link to={`/characters/${character.id}`}>
+          <AspectRatio ratio={1280 / 720}>
+            <Image src={character.media.image} alt="Character Image" />
+          </AspectRatio>
+        </Link>
       </Card.Section>
       <Group justify="space-between" mt="xs">
         <Title order={5}>{character.name}</Title>

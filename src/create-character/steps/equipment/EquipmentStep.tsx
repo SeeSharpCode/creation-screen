@@ -43,7 +43,7 @@ export default function EquipmentStep({ form }: { form: UseFormReturnType<Equipm
             />
             <Select
               label="Standing Stone"
-              placeholder="Pick The Lord Stone. I know you will."
+              placeholder="To Lord Stone, or not to Lord Stone..."
               {...form.getInputProps('standingStone')}
               data={standingStoneOptions}
             />

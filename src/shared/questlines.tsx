@@ -1,4 +1,4 @@
-import { IconBook, IconCoins, IconFlame, IconLanguage, IconSkull } from '@tabler/icons-react';
+import { IconBook, IconCoins, IconCrown, IconFlame, IconLanguage, IconShield, IconSkull } from '@tabler/icons-react';
 import { ReactNode } from 'react';
 
 const questlineIcons: Record<string, ReactNode> = {
@@ -9,6 +9,9 @@ const questlineIcons: Record<string, ReactNode> = {
   'Thieves Guild': <IconCoins />,
   'College of Winterhold': <IconFlame />,
   Dragonborn: <IconLanguage />,
+  'The Companions': <IconShield />,
+  'Civil War (Imperials)': <IconCrown />,
+  'Civil War (Stormcloaks)': <IconCrown />,
 };
 
 const questlines = Object.keys(questlineIcons);
